@@ -1,0 +1,49 @@
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi]
+\item Do the following addition through a C program
+	$$17+23$$
+	\\
+	\solution
+	\lstinputlisting{codes/add.c}
+\item Do the following subtraction through a C program
+$$7-9$$
+	\\
+	\solution
+	\lstinputlisting{codes/sub.c}
+\end{enumerate}
+Compute the following
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
+\item $\brak{-75}+18$
+\item $19+\brak{-25}$
+\item $27+\brak{-27}$
+\item $\brak{-20}+0$
+\item $\brak{-35}+\brak{-10}$
+\item $\brak{-10}+3$
+\item $17-(-21)$
+\end{enumerate}
+In a quiz, team A scored $a_1 = -40, a_2=10, a_3=0$ and team B scored $b_1=10, b_2=0, b_3=-40$ in three successive rounds.
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
+\item  If the total scores are 
+	\begin{align}
+		a &= a_1+a_2+a_3
+		\\
+		b &= b_1+b_2+b_3
+	\end{align}
+	which team scored more? 
+	\\
+	\solution 
+	\lstinputlisting{codes/ifelse.c}
+\item Write a function to compare the final scores.  Check for the cases when $a = -40, b = -40; a = 30, b = 20; a = -20, b = -10$.
+	\\
+	\solution 
+	\lstinputlisting{codes/func.c}
+\item Use arrays and a for loop to evaluate 
+	\begin{align}
+		a &= \sum_{i=0}^{2}a_i
+		\\
+		b &= \sum_{i=0}^{2}b_i
+	\end{align}
+	\\
+	\solution 
+	\lstinputlisting{codes/loop.c}
+\item Revise the above code using only functions.
+\end{enumerate}
