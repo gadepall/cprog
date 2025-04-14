@@ -1,0 +1,42 @@
+In a quiz, team A scored $a_1 = -40, a_2=10, a_3=0$ and team B scored $b_1=10, b_2=0, b_3=-40$ in three successive rounds.
+\begin{enumerate}[label=\thesection.\arabic*, ref=\thesubsection.\theenumi]
+\item  If the total scores are 
+	\begin{align}
+		a &= a_1+a_2+a_3
+		\\
+		b &= b_1+b_2+b_3
+	\end{align}
+	which team scored more? 
+	\\
+	\solution 
+	\lstinputlisting{codes/ifelse.c}
+\item Write a function to compare the final scores.  Check for the cases when $a = -40, b = -40; a = 30, b = 20; a = -20, b = -10$.
+	\\
+	\solution 
+	\lstinputlisting{codes/func.c}
+\item Use arrays and a for loop to evaluate 
+	\begin{align}
+		a &= \sum_{i=0}^{2}a_i
+		\\
+		b &= \sum_{i=0}^{2}b_i
+	\end{align}
+	\\
+	\solution 
+	\lstinputlisting{codes/loop.c}
+\item Revise the above code using only functions.
+	\\
+	\solution 
+	\lstinputlisting{codes/loopfunc.c}
+\item Use files for the input data.
+	\\
+	\solution 
+	\lstinputlisting{codes/files.c}
+\item Revise the files program using pointer arrays
+	\\
+	\solution 
+	\lstinputlisting{codes/pointer.c}
+\item Revise the files program using only functions
+	\\
+	\solution 
+	\lstinputlisting{codes/filesfunc.c}
+\end{enumerate}
