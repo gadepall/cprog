@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  14 APR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  14 APR 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1924,41 +1924,49 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 [4
 
-]) (./ncert/prog.tex (./codes/ifelse.c
+] (./codes/mul.c)) (./ncert/prog.tex (./codes/ifelse.c
 
-[5]) (./codes/func.c)
+[5]) (./codes/func.c
 
-[6] (./codes/loop.c)
+[6]) (./codes/loop.c
 
-[7] (./codes/loopfunc.c
+[7]) (./codes/loopfunc.c
 
 [8]) (./codes/files.c
 
-[9]) (./codes/pointer.c
-
-[10]
+[9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[11]) (./codes/filesfunc.c
+[10]) (./codes/pointer.c
 
-[12]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[13])) (./ncert/rv.tex
-<figs/game1.jpg, id=539, 1366.10374pt x 1284.8pt>
+[12]) (./codes/filesfunc.c
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[14])) (./ncert/rv.tex
+<figs/game1.jpg, id=603, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 11.
 (pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14])
 
-[15 <./figs/game1.jpg>] (./main.aux)
+
+[15])
+
+[16 <./figs/game1.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1967,10 +1975,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 60A03A1618C5E65C4A97A62F79878E84;490.
  ) 
 Here is how much of TeX's memory you used:
- 55210 strings out of 473197
- 1322275 string characters out of 5701897
- 2280972 words of memory out of 5000000
- 77137 multiletter control sequences out of 15000+600000
+ 55261 strings out of 473197
+ 1322893 string characters out of 5701897
+ 2258972 words of memory out of 5000000
+ 77142 multiletter control sequences out of 15000+600000
  626372 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,8n,109p,1194b,2657s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1987,10 +1995,10 @@ om.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 1237009 bytes).
+Output written on main.pdf (16 pages, 1240606 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
- 677 compressed objects within 7 object streams
- 482 named destinations out of 1000 (max. 500000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 525 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
