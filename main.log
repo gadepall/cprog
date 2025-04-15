@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 APR 2025 07:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 APR 2025 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1925,56 +1925,59 @@ File: ts1txr.fd 2000/12/15 v3.1
 [4
 
 ] (./codes/mul.c) (./codes/div.c)
-Underfull \hbox (badness 10000) in paragraph at lines 48--55
-[]$[] \OMS/txsy/m/n/10 ^^B \OT1/txr/m/n/10 (\OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10
- 1)$
- []
+Overfull \vbox (4.44751pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.44751pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.44751pt too high) has occurred while \output is active []
 
 
 
-[5]) (./ncert/prog.tex (./codes/ifelse.c)
+[5]) (./ncert/prog.tex (./codes/ifelse.c
 
-[6] (./codes/func.c) (./codes/loop.c
+[6]) (./codes/func.c
 
-[7]) (./codes/loopfunc.c
+[7]) (./codes/loop.c
 
-[8])
+[8]) (./codes/loopfunc.c
 
-[9] (./codes/files.c
-Underfull \vbox (badness 3930) has occurred while \output is active []
+[9]) (./codes/files.c
 
-
-
-[10]) (./codes/pointer.c
-
-[11]
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12]) (./codes/filesfunc.c
+[11]) (./codes/pointer.c
 
-[13]
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[14])) (./ncert/rv.tex
+[13]) (./codes/filesfunc.c
 
-[15]
-<figs/game1.jpg, id=639, 1366.10374pt x 1284.8pt>
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15])) (./ncert/rv.tex
+<figs/game1.jpg, id=643, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 11.
 (pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
 
-Underfull \vbox (badness 1642) has occurred while \output is active []
+Underfull \vbox (badness 2351) has occurred while \output is active []
 
 
 
-[16 <./figs/game1.jpg>])
+[16])
 
-[17] (./main.aux)
+[17 <./figs/game1.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1983,11 +1986,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 60A03A1618C5E65C4A97A62F79878E84;490.
  ) 
 Here is how much of TeX's memory you used:
- 55283 strings out of 473197
- 1323262 string characters out of 5701897
- 2276971 words of memory out of 5000000
- 77145 multiletter control sequences out of 15000+600000
- 626372 words of font info for 173 fonts, out of 8000000 for 9000
+ 55311 strings out of 473197
+ 1323467 string characters out of 5701897
+ 2262972 words of memory out of 5000000
+ 77146 multiletter control sequences out of 15000+600000
+ 626800 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,8n,109p,1194b,2657s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
@@ -1996,17 +1999,18 @@ f-dist/fonts/type1/public/txfonts/rtxi.pfb></data/data/com.termux/files/usr/sha
 re/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com
 .termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr
 .pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1
-/public/txfonts/rtxsc.pfb></data/data/com.termux/files/usr/share/texlive/2025/t
-exmf-dist/fonts/type1/public/txfonts/txex.pfb></data/data/com.termux/files/usr/
-share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></data/data/c
-om.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/
-urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 1241704 bytes).
+/public/txfonts/rtxsc.pfb></data/data/com.termux/files/home/texmf/fonts/type1/t
+frupee/tfrupee.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-di
+st/fonts/type1/public/txfonts/txex.pfb></data/data/com.termux/files/usr/share/t
+exlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></data/data/com.term
+ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></d
+ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (17 pages, 1335790 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 753 compressed objects within 8 object streams
- 542 named destinations out of 1000 (max. 500000)
+ 854 PDF objects out of 1000 (max. 8388607)
+ 787 compressed objects within 8 object streams
+ 569 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
