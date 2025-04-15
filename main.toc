@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}Arithmetic}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Addition and Subtraction}{4}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Programming}{6}{section.2}%
-\contentsline {section}{\numberline {3}Random Numbers}{16}{section.3}%
+\contentsline {section}{\numberline {1}Integers}{4}{section.1}%
+\contentsline {section}{\numberline {2}Decimal Numbers}{6}{section.2}%
+\contentsline {section}{\numberline {3}Programming}{8}{section.3}%
+\contentsline {section}{\numberline {4}Random Numbers}{18}{section.4}%
