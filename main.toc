@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Integers}{4}{section.1}%
 \contentsline {section}{\numberline {2}Decimal Numbers}{6}{section.2}%
-\contentsline {section}{\numberline {3}Programming}{8}{section.3}%
-\contentsline {section}{\numberline {4}Data Handling}{18}{section.4}%
-\contentsline {section}{\numberline {5}Random Numbers}{24}{section.5}%
+\contentsline {section}{\numberline {3}Programming}{9}{section.3}%
+\contentsline {section}{\numberline {4}Data Handling}{19}{section.4}%
+\contentsline {section}{\numberline {5}Random Numbers}{25}{section.5}%
