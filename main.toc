@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Programming}{13}{section.3}%
 \contentsline {section}{\numberline {4}Data Handling}{24}{section.4}%
 \contentsline {section}{\numberline {5}Math Library}{31}{section.5}%
-\contentsline {section}{\numberline {6}Random Numbers}{33}{section.6}%
+\contentsline {section}{\numberline {6}Random Numbers}{34}{section.6}%
