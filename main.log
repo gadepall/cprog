@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  21 APR 2025 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  22 APR 2025 07:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2049,27 +2049,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[23]) [24]
+[23])
+
+[24]
 
 [25]) (./ncert/data.tex
 
 [26]
-<figs/data.jpg, id=1152, 1165.35374pt x 336.25626pt>
+<figs/data.jpg, id=1149, 1165.35374pt x 336.25626pt>
 File: figs/data.jpg Graphic file (type jpg)
 <use figs/data.jpg>
 Package pdftex.def Info: figs/data.jpg  used on input line 36.
 (pdftex.def)             Requested size: 364.1953pt x 105.08495pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[27 <./figs/data.jpg>]
 File: figs/data.jpg Graphic file (type jpg)
 <use figs/data.jpg>
 Package pdftex.def Info: figs/data.jpg  used on input line 58.
 (pdftex.def)             Requested size: 364.1953pt x 105.08495pt.
-<figs/mode.jpg, id=1178, 1292.83pt x 128.48pt>
+
+
+[27 <./figs/data.jpg>]
+<figs/mode.jpg, id=1177, 1292.83pt x 128.48pt>
 File: figs/mode.jpg Graphic file (type jpg)
 <use figs/mode.jpg>
 Package pdftex.def Info: figs/mode.jpg  used on input line 78.
@@ -2077,6 +2076,9 @@ Package pdftex.def Info: figs/mode.jpg  used on input line 78.
 
 
 [28 <./figs/mode.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [29]
 <figs/bar.jpg, id=1215, 1105.12875pt x 108.405pt>
@@ -2100,12 +2102,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [30 <./figs/bar.jpg> <./figs/bar1.jpg>]
-<figs/bar3.jpg, id=1238, 721.69624pt x 162.6075pt>
+<figs/bar3.jpg, id=1234, 721.69624pt x 162.6075pt>
 File: figs/bar3.jpg Graphic file (type jpg)
 <use figs/bar3.jpg>
 Package pdftex.def Info: figs/bar3.jpg  used on input line 201.
 (pdftex.def)             Requested size: 364.1953pt x 82.05783pt.
-<figs/bar4.jpg, id=1240, 572.1375pt x 166.6225pt>
+<figs/bar4.jpg, id=1236, 572.1375pt x 166.6225pt>
 File: figs/bar4.jpg Graphic file (type jpg)
 <use figs/bar4.jpg>
 Package pdftex.def Info: figs/bar4.jpg  used on input line 209.
@@ -2113,17 +2115,17 @@ Package pdftex.def Info: figs/bar4.jpg  used on input line 209.
 
 
 [31 <./figs/bar2.jpg> <./figs/bar3.jpg> <./figs/bar4.jpg>]
-<figs/bar5.jpg, id=1251, 1089.06876pt x 137.51375pt>
+<figs/bar5.jpg, id=1247, 1089.06876pt x 137.51375pt>
 File: figs/bar5.jpg Graphic file (type jpg)
 <use figs/bar5.jpg>
 Package pdftex.def Info: figs/bar5.jpg  used on input line 224.
 (pdftex.def)             Requested size: 364.1953pt x 45.98607pt.
-<figs/bar6.jpg, id=1253, 1108.14pt x 183.68625pt>
+<figs/bar6.jpg, id=1249, 1108.14pt x 183.68625pt>
 File: figs/bar6.jpg Graphic file (type jpg)
 <use figs/bar6.jpg>
 Package pdftex.def Info: figs/bar6.jpg  used on input line 238.
 (pdftex.def)             Requested size: 364.1953pt x 60.36719pt.
-<figs/bar7.jpg, id=1255, 1207.51125pt x 165.61874pt>
+<figs/bar7.jpg, id=1251, 1207.51125pt x 165.61874pt>
 File: figs/bar7.jpg Graphic file (type jpg)
 <use figs/bar7.jpg>
 Package pdftex.def Info: figs/bar7.jpg  used on input line 252.
@@ -2211,7 +2213,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [34]
 
 [35]) (./ncert/rv.tex
-<figs/game1.jpg, id=1414, 1366.10374pt x 1284.8pt>
+<figs/game1.jpg, id=1410, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 11.
@@ -2234,7 +2236,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  56039 strings out of 473197
  1331189 string characters out of 5701897
- 2262842 words of memory out of 5000000
+ 2262841 words of memory out of 5000000
  77206 multiletter control sequences out of 15000+600000
  629432 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2253,7 +2255,7 @@ ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (37 pages, 2373251 bytes).
+Output written on main.pdf (37 pages, 2373223 bytes).
 PDF statistics:
  1748 PDF objects out of 2073 (max. 8388607)
  1638 compressed objects within 17 object streams
