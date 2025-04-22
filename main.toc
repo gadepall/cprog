@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Integers}{4}{section.1}%
 \contentsline {section}{\numberline {2}Decimal Numbers}{7}{section.2}%
 \contentsline {section}{\numberline {3}Programming}{15}{section.3}%
-\contentsline {section}{\numberline {4}Data Handling}{28}{section.4}%
-\contentsline {section}{\numberline {5}Math Library}{34}{section.5}%
-\contentsline {section}{\numberline {6}Random Numbers}{37}{section.6}%
+\contentsline {section}{\numberline {4}Data Handling}{29}{section.4}%
+\contentsline {section}{\numberline {5}Math Library}{35}{section.5}%
+\contentsline {section}{\numberline {6}Random Numbers}{38}{section.6}%

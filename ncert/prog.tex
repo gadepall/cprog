@@ -94,11 +94,17 @@ Use recursion for the following
 			\\
 			\solution For integer powers, the exponent can be computed as
 			\begin{align}
-					x(n) = ax(n-1), x(1) = a
+					x(n) = ax(n-1), x(0) = 1 
 			\end{align}
 			which results in the following C code.
 	\lstinputlisting{codes/prog/recur.c}
 	\item $\brak{-1}\times\brak{-2} \times \brak{-3} \times \brak{-4}$ 
+		\\
+		\solution In this case,
+			\begin{align}
+					x(n) = -nx(n-1), x(0) = 1 
+			\end{align}
+			Complete the code using the above equation.
 	\begin{multicols}{4}
 		\item $2^6$   
 		\item $11^2$
@@ -123,8 +129,19 @@ Use recursion for the following
 \end{enumerate}
 Use arrays for the following
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
-	\begin{multicols}{2}
 	\item $\brak{-12}\times  \brak{-11}\times \brak{10} $
+		\\
+		\solution The product can be expressed as
+		\begin{align}
+			y = \prod_{k=0}^{2}a_k
+		\end{align}
+		where
+		\begin{align}
+			\vec{a} = \myvec{-12 \\ -11 \\ 10}
+		\end{align}
+	The following code implements this
+	\lstinputlisting{codes/prog/prodvec.c}
+	\begin{multicols}{3}
 	\item $\brak{9}\times\brak{-3} \times \brak{-6}$ 
 	\item $\brak{-18}\times\brak{-5} \times \brak{-4}$ 
 	\item $\brak{-3}\times\brak{-6} \times \brak{-2} \times \brak{-1}$ 
