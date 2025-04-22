@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-//function to compare the numbers a and b
+//function to compute a to the power n
 int power(int a,int n){
 	 if (n == 0){
 	 return(1);
@@ -13,12 +13,13 @@ int power(int a,int n){
 		 return a*power(a,n-1);
 	 }
  	}
-//end function to compare the numbers a and b
+//end function to compute a to the power n
+
 //begin main function
 int main(void) {
  int a=9,n=3;
  
- //call the function to compare the numbers
+ //call the function to compute 9 to the power 3 
 printf("%d\n",power(9,3));
  
  return 0;
