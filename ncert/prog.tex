@@ -150,6 +150,23 @@ Use arrays for the following
 Use matrices for the following
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
 	\item The difference in the measures of two complementary angles is 12\degree. Find the measures of the angles.
+		\\
+		\solution Let the angles be $x$ and $y$.  Then we have the following equations
+		\begin{align}
+			x+y = 180
+			\\
+			x-y = 12
+		\end{align}
+		which can be expressed as the matrix equation
+		\begin{align}
+		\myvec{1 & 1 \\ 1 & -1}\myvec{x\\y}= \myvec{180 \\ 12}
+		\\
+		\text{or, } \vec{A}\vec{x} = \vec{b}
+		\end{align}
+		The solution can be obtained as
+		\begin{align}
+			\vec{x} = \frac{\vec{A}^{\top}\vec{b}}{2}
+		\end{align}
 \item Among two supplementary angles the measure of the larger angle is $44\degree$  more than the measure of the smaller. Find their measures
 \end{enumerate}
 Identify which of the following pairs of angles are complementary and which are supplementary.
