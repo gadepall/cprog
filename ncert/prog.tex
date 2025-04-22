@@ -90,10 +90,17 @@ Which is greater?
 \end{enumerate}
 Use recursion for the following
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesubsection.\theenumi,resume*]
+		\item $9^3$
+			\\
+			\solution For integer powers, the exponent can be computed as
+			\begin{enumerate}
+					x(n) = ax(n-1), x(1) = a
+			\end{enumerate}
+			which results in the following C code.
+	\lstinputlisting{codes/prog/recur.c}
 	\item $\brak{-1}\times\brak{-2} \times \brak{-3} \times \brak{-4}$ 
 	\begin{multicols}{4}
 		\item $2^6$   
-		\item $9^3$
 		\item $11^2$
 		\item $5^4$
 		\item $\brak{6^2}^{4}$
