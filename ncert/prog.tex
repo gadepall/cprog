@@ -30,15 +30,15 @@ In a quiz, team A scored $a_1 = -40, a_2=10, a_3=0$ and team B scored $b_1=10, b
 \item Use files for the input data.
 	\\
 	\solution 
-	\lstinputlisting{codes/prog/files.c}
+	\lstinputlisting{codes/prog/fileprogs/files.c}
 \item Revise the files program using pointer arrays
 	\\
 	\solution 
-	\lstinputlisting{codes/prog/pointer.c}
+	\lstinputlisting{codes/prog/fileprogs/pointer.c}
 \item Revise the files program using only functions
 	\\
 	\solution 
-	\lstinputlisting{codes/prog/filesfunc.c}
+	\lstinputlisting{codes/prog/fileprogs/filesfunc.c}
 \end{enumerate}
 Use ifelse  for the following
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
@@ -88,44 +88,27 @@ Which is greater?
 	or $\frac{2}{3}$ of $\frac{3}{7}$
 \end{multicols}
 \end{enumerate}
-Use recursion for the following
+Identify which of the following pairs of angles are complementary and which are supplementary.
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
-		\item $9^3$
-			\\
-			\solution For integer powers, the exponent can be computed as
-			\begin{align}
-					x(n) = ax(n-1), x(0) = 1 
-			\end{align}
-			which results in the following C code.
-	\lstinputlisting{codes/prog/recur.c}
-	\item $\brak{-1}\times\brak{-2} \times \brak{-3} \times \brak{-4}$ 
-		\\
-		\solution In this case,
-			\begin{align}
-					x(n) = -nx(n-1), x(0) = 1 
-			\end{align}
-			Complete the code using the above equation.
 	\begin{multicols}{4}
-		\item $2^6$   
-		\item $11^2$
-		\item $5^4$
-		\item $\brak{6^2}^{4}$
-		\item $\brak{2^2}^{100}$
-		\item $\brak{7^{50}}^{2}$
-		\item $\brak{5^3}^{7}$
-		\item ${2}^{5}\times {2}^{3}$
-		\item ${4}^{3}\times {4}^{2}$
-		\item ${5}^{3}\times {5}^{7}\times {5}^{12}$
-		\item ${2}^{8}\div{2}^{3}$
-		\item ${9}^{11}\div{9}^{7}$
-		\item ${7}^{13}\div{7}^{10}$
-		\item ${10}^{8}\div{10}^{4}$
-		\item ${20}^{15}\div{20}^{13}$
-		\item $\brak{-4}^{3}$
-		\item $\brak{\frac{3}{5}}^{4}$
-		\item $\brak{\frac{-4}{7}}^{5}$
-		\item $\brak{-4}^{100}\times \brak{-4}^{20}$
-		\end{multicols}
+	\item  65\degree, 115\degree
+	\item  63\degree, 27\degree 
+	\item  130\degree, 50\degree 
+	\item 45\degree, 45\degree 
+	\item  112\degree, 68\degree 
+	\item  80\degree, 10\degree
+\end{multicols}
+\end{enumerate}
+Which of these are negative rational numbers?
+\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*,itemsep=1ex]
+	\begin{multicols}{4}
+	\item $\frac{-2}{3}$
+	\item $\frac{5}{7}$
+	\item $\frac{3}{-5}$
+	\item $\frac{6}{11}$
+	\item $\frac{-2}{-9}$
+	\item 0
+\end{multicols}
 \end{enumerate}
 Use arrays for the following
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
@@ -167,29 +150,12 @@ Use matrices for the following
 		\begin{align}
 			\vec{x} = \frac{\vec{A}^{\top}\vec{b}}{2}
 		\end{align}
+		using the following code
+	\lstinputlisting{codes/prog/mat/matsol.c}
+	by keeping the functions in .h files as below.  
+	\lstinputlisting{codes/prog/mat/libs/matfun.h}
+	\lstinputlisting{codes/prog/mat/libs/geofun.h}
 \item Among two supplementary angles the measure of the larger angle is $44\degree$  more than the measure of the smaller. Find their measures
-\end{enumerate}
-Identify which of the following pairs of angles are complementary and which are supplementary.
-\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
-	\begin{multicols}{4}
-	\item  65\degree, 115\degree
-	\item  63\degree, 27\degree 
-	\item  130\degree, 50\degree 
-	\item 45\degree, 45\degree 
-	\item  112\degree, 68\degree 
-	\item  80\degree, 10\degree
-\end{multicols}
-\end{enumerate}
-Which of these are negative rational numbers?
-\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*,itemsep=1ex]
-	\begin{multicols}{4}
-	\item $\frac{-2}{3}$
-	\item $\frac{5}{7}$
-	\item $\frac{3}{-5}$
-	\item $\frac{6}{11}$
-	\item $\frac{-2}{-9}$
-	\item 0
-\end{multicols}
 \end{enumerate}
 Reduce to standard form
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*,itemsep=1ex]
@@ -243,3 +209,42 @@ Compare the following and fill in the blanks
 	\item $\frac{-2}{3},\frac{2}{-3},\frac{4}{-6},\frac{6}{-9}$
 \end{multicols}
 		\end{enumerate}
+Use recursion for the following
+\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
+		\item $9^3$
+			\\
+			\solution For integer powers, the exponent can be computed as
+			\begin{align}
+					x(n) = ax(n-1), x(0) = 1 
+			\end{align}
+			which results in the following C code.
+	\lstinputlisting{codes/prog/recur.c}
+	\item $\brak{-1}\times\brak{-2} \times \brak{-3} \times \brak{-4}$ 
+		\\
+		\solution In this case,
+			\begin{align}
+					x(n) = -nx(n-1), x(0) = 1 
+			\end{align}
+			Complete the code using the above equation.
+	\begin{multicols}{4}
+		\item $2^6$   
+		\item $11^2$
+		\item $5^4$
+		\item $\brak{6^2}^{4}$
+		\item $\brak{2^2}^{100}$
+		\item $\brak{7^{50}}^{2}$
+		\item $\brak{5^3}^{7}$
+		\item ${2}^{5}\times {2}^{3}$
+		\item ${4}^{3}\times {4}^{2}$
+		\item ${5}^{3}\times {5}^{7}\times {5}^{12}$
+		\item ${2}^{8}\div{2}^{3}$
+		\item ${9}^{11}\div{9}^{7}$
+		\item ${7}^{13}\div{7}^{10}$
+		\item ${10}^{8}\div{10}^{4}$
+		\item ${20}^{15}\div{20}^{13}$
+		\item $\brak{-4}^{3}$
+		\item $\brak{\frac{3}{5}}^{4}$
+		\item $\brak{\frac{-4}{7}}^{5}$
+		\item $\brak{-4}^{100}\times \brak{-4}^{20}$
+		\end{multicols}
+\end{enumerate}
