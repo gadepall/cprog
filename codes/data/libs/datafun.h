@@ -4,6 +4,9 @@ void swap(int *a,int *b);//swap two numbers
 void printData(int *a, int n);
 void median(int *a, int n);
 void quicksort(int data[], int low, int high); 
+int max(int *a, int n);
+int min(int *a, int n);
+int *createVec(int m);
 
 //Swap two numbers
 void swap(int *a,int *b){
@@ -43,3 +46,32 @@ void quicksort(int data[], int low, int high) {
 }
 
 
+//max function
+int max(int *a, int n){
+int temp=a[0];
+  for (int i = 1; i < n; i++){
+	  if(temp < a[i])
+		  temp = a[i];
+  }
+  return temp; //returning the max to main
+  }
+//end max function
+//min function
+int min(int *a, int n){
+int temp=a[0];
+  for (int i = 1; i < n; i++){
+	  if(temp > a[i])
+		  temp = a[i];
+  }
+  return temp; //returning the min to main
+  }
+//end min function
+//Defining the function for vector creation
+int *createVec(int m)
+{
+ int *vec;
+ 
+ //Allocate memory to the pointer
+vec = (int *)malloc(m * sizeof( vec));
+ return vec;
+}
