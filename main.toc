@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Decimal Numbers}{7}{section.2}%
 \contentsline {section}{\numberline {3}Programming}{15}{section.3}%
 \contentsline {section}{\numberline {4}Data Handling}{35}{section.4}%
-\contentsline {section}{\numberline {5}Math Library}{46}{section.5}%
+\contentsline {section}{\numberline {5}Math Library}{47}{section.5}%
 \contentsline {section}{\numberline {6}Random Numbers}{50}{section.6}%
