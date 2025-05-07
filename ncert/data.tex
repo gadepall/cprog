@@ -32,13 +32,15 @@
 \item A cricketer scores the following runs in eight innings.
 	$$58, 76, 40, 35, 46, 45, 0, 100$$
 	Find the mean score.
-\item Generate the following table using a C program
-	\begin{figure}[H]
+\item Generate 
+  \tabref{tab:player}
+using a C program
+	\begin{table}[H]
   \centering
-  \includegraphics[width=\columnwidth]{figs/data.jpg}
+  \input{tables/player.tex}
   \caption{}
-  \label{fig:data}
-\end{figure}
+  \label{tab:player}
+\end{table}
 and answer the following questions.
 \begin{enumerate}
 	\item Find the mean to determine $A's$ average number of points scored per game.
@@ -54,13 +56,13 @@ and answer the following questions.
 	$$1555, 1670, 1750, 2013, 2540, 2820$$
 	Find the mean enrolment of the school for this period.
 \item The rainfall (in mm) in a city on 7 days a week was recorded as in 
-  \tabref{fig:data2}.  Generate this table using a C program.
-	\begin{figure}[H]
+  \tabref{tab:rainfall}.  Generate this table using a C program.
+	\begin{table}[H]
   \centering
-  \includegraphics[width=\columnwidth]{figs/data.jpg}
+  \input{tables/rainfall.tex}
   \caption{}
-  \label{fig:data2}
-\end{figure}
+  \label{tab:rainfall}
+\end{table}
 \item Find the range of the rainfall in the given data.
 \item Find the mean rainfall for the week.
 \item On how many days was the rainfall less than the mean rainfall 
@@ -82,13 +84,13 @@ and answer the following questions.
 	\solution
 \lstinputlisting{codes/data/findmode.c}
 \item To find out the weekly demand for different sizes of shirt, a shopkeeper kept records of sales of sizes as shown in 
-  \eqref{fig:mode}.  This is the record for a week.  Find the mode of the data.
-	\begin{figure}[H]
+\tabref{tab:shirt}.  This is the record for a week.  Find the mode of the data.
+	\begin{table}[H]
   \centering
-  \includegraphics[width=\columnwidth]{figs/mode.jpg}
+  \input{tables/shirt.tex}
   \caption{}
-  \label{fig:mode}
-\end{figure}
+  \label{tab:shirt}
+\end{table}
 \item Find the mode of the given set of numbers
 	$$1,1,1,2,2,2,2,3,4,4$$.
 \end{enumerate}
@@ -168,14 +170,14 @@ Find the mean, mode and median of this data. Are the three same?
 \end{gather*}
 has mean 9.  True or False?
 \item Two hundred students of 6th and 7th classes were asked to name their favourite colour so as to decide upon what should be the colour of their school building. The results are shown in the following table
-  in \figref{fig:bar}.
+  in   \tabref{tab:colour}.
 	 Represent the given data on a bar graph
-	\begin{figure}[H]
+	\begin{table}[H]
   \centering
-  \includegraphics[width=\columnwidth]{figs/bar.jpg}
+  \input{tables/colour.tex}
   \caption{}
-  \label{fig:bar}
-\end{figure}
+  \label{tab:colour}
+\end{table}
 Answer the following questions with the help of the bar graph
 	\begin{enumerate}
 	\item Which is the most preferred colour and which is the least preferred? 
