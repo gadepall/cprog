@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  8 MAY 2025 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  8 MAY 2025 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2121,31 +2121,37 @@ Underfull \vbox (badness 1755) has occurred while \output is active []
 
 [42])
 
-[43] (./tables/colour.tex) (./tables/marks.tex)
-<figs/bar2.jpg, id=1876, 1158.3275pt x 484.81125pt>
-File: figs/bar2.jpg Graphic file (type jpg)
-<use figs/bar2.jpg>
-Package pdftex.def Info: figs/bar2.jpg  used on input line 202.
-(pdftex.def)             Requested size: 364.1953pt x 152.42784pt.
+[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/hours.tex
+\gnumericColJ=\skip90
+\gnumericColK=\skip91
+\gnumericColL=\skip92
+\gnumericColM=\skip93
+\gnumericColN=\skip94
+
+Overfull \hbox (2.36075pt too wide) in paragraph at lines 267--267
+ \OT1/txr/bx/n/10 Jan| 
+ []
 
 
-[44]
-<figs/bar3.jpg, id=1898, 721.69624pt x 162.6075pt>
-File: figs/bar3.jpg Graphic file (type jpg)
-<use figs/bar3.jpg>
-Package pdftex.def Info: figs/bar3.jpg  used on input line 210.
-(pdftex.def)             Requested size: 364.1953pt x 82.05783pt.
-<figs/bar4.jpg, id=1900, 572.1375pt x 166.6225pt>
-File: figs/bar4.jpg Graphic file (type jpg)
-<use figs/bar4.jpg>
-Package pdftex.def Info: figs/bar4.jpg  used on input line 218.
-(pdftex.def)             Requested size: 364.1953pt x 106.06343pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.66731pt too wide) in paragraph at lines 271--271
+ \OT1/txr/bx/n/10 Mar| 
+ []
 
 
+Overfull \hbox (2.36075pt too wide) in paragraph at lines 343--343
+ \OT1/txr/bx/n/10 Jan| 
+ []
 
-[45 <./figs/bar2.jpg> <./figs/bar3.jpg>]
+
+Overfull \hbox (2.66731pt too wide) in paragraph at lines 347--347
+ \OT1/txr/bx/n/10 Mar| 
+ []
+
+)
+
+[44] (./tables/students.tex) (./tables/sale.tex)
+
+[45]
 <figs/bar5.jpg, id=1912, 1089.06876pt x 137.51375pt>
 File: figs/bar5.jpg Graphic file (type jpg)
 <use figs/bar5.jpg>
@@ -2162,11 +2168,8 @@ File: figs/bar7.jpg Graphic file (type jpg)
 Package pdftex.def Info: figs/bar7.jpg  used on input line 261.
 (pdftex.def)             Requested size: 364.1953pt x 49.95134pt.
 
-Underfull \vbox (badness 1895) has occurred while \output is active []
 
-
-
-[46 <./figs/bar4.jpg> <./figs/bar5.jpg> <./figs/bar6.jpg>]) (./ncert/math.tex
+[46 <./figs/bar5.jpg> <./figs/bar6.jpg> <./figs/bar7.jpg>]) (./ncert/math.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 19.
 
@@ -2182,9 +2185,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 24.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 29.
 
-
-
-[47 <./figs/bar7.jpg>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 33.
 
@@ -2216,6 +2216,9 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 43.
 LaTeX Warning: Command \textendash invalid in math mode on input line 46.
 
 
+
+[47]
+
 LaTeX Warning: Command \textendash invalid in math mode on input line 50.
 
 
@@ -2244,12 +2247,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[48] [49]) (./ncert/rv.tex
-<figs/game1.jpg, id=2061, 1366.10374pt x 1284.8pt>
+[48]
+
+[49]) (./ncert/rv.tex
+<figs/game1.jpg, id=2072, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 11.
 (pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [50])
@@ -2263,10 +2271,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AAF676857D53E64D53942CFCD6BEB3C9;635.
  ) 
 Here is how much of TeX's memory you used:
- 56891 strings out of 473197
- 1344585 string characters out of 5701897
+ 56899 strings out of 473197
+ 1344620 string characters out of 5701897
  2354842 words of memory out of 5000000
- 77377 multiletter control sequences out of 15000+600000
+ 77373 multiletter control sequences out of 15000+600000
  629432 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2284,10 +2292,10 @@ ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 2151374 bytes).
+Output written on main.pdf (51 pages, 1876335 bytes).
 PDF statistics:
  2546 PDF objects out of 2984 (max. 8388607)
- 2418 compressed objects within 25 object streams
- 1845 named destinations out of 2073 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2421 compressed objects within 25 object streams
+ 1848 named destinations out of 2073 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
