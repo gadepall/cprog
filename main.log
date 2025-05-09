@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  9 MAY 2025 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  9 MAY 2025 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2121,7 +2121,11 @@ Underfull \vbox (badness 1755) has occurred while \output is active []
 
 [42])
 
-[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/hours.tex
+[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/sale.tex)
+
+[44] (./codes/data/bar.c
+
+[45]) (./tables/hours.tex
 \gnumericColJ=\skip90
 \gnumericColK=\skip91
 \gnumericColL=\skip92
@@ -2148,12 +2152,15 @@ Overfull \hbox (2.66731pt too wide) in paragraph at lines 347--347
  []
 
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[44] (./tables/students.tex) (./tables/sale.tex)
 
-[45] (./tables/children.tex) (./tables/term.tex) (./tables/sport.tex)
 
-[46]) (./ncert/math.tex
+[46] (./tables/students.tex) (./tables/children.tex) (./tables/term.tex)
+
+[47] (./tables/sport.tex)) (./ncert/math.tex
+
+[48]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 19.
 
@@ -2200,9 +2207,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 43.
 LaTeX Warning: Command \textendash invalid in math mode on input line 46.
 
 
-
-[47]
-
 LaTeX Warning: Command \textendash invalid in math mode on input line 50.
 
 
@@ -2231,22 +2235,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[48]
-
-[49]) (./ncert/rv.tex
-<figs/game1.jpg, id=2072, 1366.10374pt x 1284.8pt>
-File: figs/game1.jpg Graphic file (type jpg)
-<use figs/game1.jpg>
-Package pdftex.def Info: figs/game1.jpg  used on input line 11.
-(pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
-
+[49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[50])
+[50]) (./ncert/rv.tex
 
-[51 <./figs/game1.jpg>] (./main.aux)
+[51]
+<figs/game1.jpg, id=2167, 1366.10374pt x 1284.8pt>
+File: figs/game1.jpg Graphic file (type jpg)
+<use figs/game1.jpg>
+Package pdftex.def Info: figs/game1.jpg  used on input line 11.
+(pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
+)
+
+[52 <./figs/game1.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2255,31 +2259,32 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AAF676857D53E64D53942CFCD6BEB3C9;635.
  ) 
 Here is how much of TeX's memory you used:
- 56902 strings out of 473197
- 1344591 string characters out of 5701897
+ 56992 strings out of 473197
+ 1345890 string characters out of 5701897
  2354842 words of memory out of 5000000
- 77364 multiletter control sequences out of 15000+600000
- 629432 words of font info for 178 fonts, out of 8000000 for 9000
+ 77390 multiletter control sequences out of 15000+600000
+ 630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
-blic/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
-f-dist/fonts/type1/public/txfonts/rtxi.pfb></data/data/com.termux/files/usr/sha
-re/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com
-.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxr
-.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1
-/public/txfonts/rtxsc.pfb></data/data/com.termux/files/home/texmf/fonts/type1/t
-frupee/tfrupee.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-di
-st/fonts/type1/public/txfonts/txex.pfb></data/data/com.termux/files/usr/share/t
-exlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></data/data/com.term
-ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></d
-ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 1651914 bytes).
+blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
+f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
+are/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></data/data/com
+.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/rtxm
+i.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type
+1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/share/texlive/2025/t
+exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com.termux/files/hom
+e/texmf/fonts/type1/tfrupee/tfrupee.pfb></data/data/com.termux/files/usr/share/
+texlive/2025/texmf-dist/fonts/type1/public/txfonts/txex.pfb></data/data/com.ter
+mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
+></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texli
+ve/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (52 pages, 1659120 bytes).
 PDF statistics:
- 2547 PDF objects out of 2984 (max. 8388607)
- 2425 compressed objects within 25 object streams
- 1851 named destinations out of 2073 (max. 500000)
+ 2628 PDF objects out of 2984 (max. 8388607)
+ 2502 compressed objects within 26 object streams
+ 1911 named destinations out of 2073 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
