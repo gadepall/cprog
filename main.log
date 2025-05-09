@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  8 MAY 2025 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  9 MAY 2025 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2151,25 +2151,9 @@ Overfull \hbox (2.66731pt too wide) in paragraph at lines 347--347
 
 [44] (./tables/students.tex) (./tables/sale.tex)
 
-[45]
-<figs/bar5.jpg, id=1912, 1089.06876pt x 137.51375pt>
-File: figs/bar5.jpg Graphic file (type jpg)
-<use figs/bar5.jpg>
-Package pdftex.def Info: figs/bar5.jpg  used on input line 233.
-(pdftex.def)             Requested size: 364.1953pt x 45.98607pt.
-<figs/bar6.jpg, id=1914, 1108.14pt x 183.68625pt>
-File: figs/bar6.jpg Graphic file (type jpg)
-<use figs/bar6.jpg>
-Package pdftex.def Info: figs/bar6.jpg  used on input line 247.
-(pdftex.def)             Requested size: 364.1953pt x 60.36719pt.
-<figs/bar7.jpg, id=1916, 1207.51125pt x 165.61874pt>
-File: figs/bar7.jpg Graphic file (type jpg)
-<use figs/bar7.jpg>
-Package pdftex.def Info: figs/bar7.jpg  used on input line 261.
-(pdftex.def)             Requested size: 364.1953pt x 49.95134pt.
+[45] (./tables/children.tex) (./tables/term.tex) (./tables/sport.tex)
 
-
-[46 <./figs/bar5.jpg> <./figs/bar6.jpg> <./figs/bar7.jpg>]) (./ncert/math.tex
+[46]) (./ncert/math.tex
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 19.
 
@@ -2271,10 +2255,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AAF676857D53E64D53942CFCD6BEB3C9;635.
  ) 
 Here is how much of TeX's memory you used:
- 56899 strings out of 473197
- 1344620 string characters out of 5701897
+ 56902 strings out of 473197
+ 1344591 string characters out of 5701897
  2354842 words of memory out of 5000000
- 77373 multiletter control sequences out of 15000+600000
+ 77364 multiletter control sequences out of 15000+600000
  629432 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2292,10 +2276,10 @@ ux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 1876335 bytes).
+Output written on main.pdf (51 pages, 1651914 bytes).
 PDF statistics:
- 2546 PDF objects out of 2984 (max. 8388607)
- 2421 compressed objects within 25 object streams
- 1848 named destinations out of 2073 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2547 PDF objects out of 2984 (max. 8388607)
+ 2425 compressed objects within 25 object streams
+ 1851 named destinations out of 2073 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
