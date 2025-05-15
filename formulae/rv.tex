@@ -1,0 +1,31 @@
+\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi]
+	\item Take a board marked from -104 to 104 as shown in 
+	\figref{fig:game1}.
+	\item Take a bag containing two blue and two red dice.  Number of dots on the blue dice indicate positive integers and number of dots on the red dice indicate negative integers.
+	\item Every player will place his/her counter at zero.
+	\item Each player will take out two dice at a time from the bag and throw them.
+	\item After every throw, the player has to multiply the numbers marked on the dice.
+	\item If the product is a positive integer then the player will move his counter towards 104; if the product is a negative integer then the player will move his counter towards -104.
+	\item The player who reaches either -104 or 104 first is the winner.
+		\begin{figure}[H]
+  \centering
+  \includegraphics[width=\columnwidth]{figs/game1.jpg}
+  \caption{}
+  \label{fig:game1}
+\end{figure}
+\end{enumerate}
+%
+\begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
+	\item Write a program to simulate the game.  Give the inputs manually.
+	\\
+	\solution 
+	\lstinputlisting{codes/rv/game.c}
+	\item Revise the program by replacing the second player with the computer.  The computer generates the inputs randomly as follows 
+		\begin{enumerate}
+			\item Generate the numbers on all the dice using a uniform distribution ranging from 1 to 6.
+			\item Simulate the blue and red dice through a Bernoulli distribution having values 1 and -1.
+		\end{enumerate}
+	\solution 
+	\lstinputlisting{codes/rv/rgame.c}
+\item Now revise the program so that both players are simulated by the computer.
+\end{enumerate}

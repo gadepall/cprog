@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  10 MAY 2025 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 MAY 2025 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1818,7 +1818,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count398
-<figs/logo.jpg, id=55, 2537.48pt x 2047.65pt>
+<figs/logo.jpg, id=71, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 48.
@@ -1832,48 +1832,48 @@ ist/fonts/enc/dvips/base/8r.enc}
 
  <./figs/logo.jpg>]
 
-[2] (./main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-
-
-[3] (./ncert/integer.tex
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+[2] (./main.toc
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/jknapl
 tx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
 .
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
 .
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
 .
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 .
 
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/txfont
 s/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-)
+))
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+
+[3] (./formulae/integer.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
  (./codes/integer/add.c
@@ -1906,128 +1906,119 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 [4
 
-] (./codes/integer/mul.c) (./codes/integer/div.c)
-Overfull \vbox (4.44751pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (4.44751pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (4.44751pt too high) has occurred while \output is active []
-
-
-
+] (./codes/integer/mul.c) (./codes/integer/div.c)) (./ncert/integer.tex
 [5]
 
+LaTeX Warning: Command \textendash invalid in math mode on input line 57.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 58.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 59.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 60.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 61.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 66.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 78.
+
+
 LaTeX Warning: Command \textendash invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 80.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 82.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 83.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 84.
+LaTeX Warning: Command \textendash invalid in math mode on input line 85.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 85.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 86.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 88.
+LaTeX Warning: Command \textendash invalid in math mode on input line 89.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 90.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 96.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 100.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 101.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 103.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 107.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 107.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 111.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 112.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 113.
+LaTeX Warning: Command \textendash invalid in math mode on input line 91.
 
 
 
-[6]) (./ncert/deci.tex (./codes/deci/add.c
+[6]) (./formulae/deci.tex
 
-[7]) (./codes/deci/sub.c) (./codes/deci/mul.c)
+[7] (./codes/deci/add.c) (./codes/deci/sub.c) (./codes/deci/mul.c
 
-[8] (./codes/deci/div.c) [9]
+[8]) (./codes/deci/div.c)) (./ncert/deci.tex [9]
 
 [10]
-<figs/percent2.jpg, id=479, 220.825pt x 192.72pt>
+<figs/percent2.jpg, id=495, 220.825pt x 192.72pt>
 File: figs/percent2.jpg Graphic file (type jpg)
 <use figs/percent2.jpg>
-Package pdftex.def Info: figs/percent2.jpg  used on input line 220.
+Package pdftex.def Info: figs/percent2.jpg  used on input line 201.
 (pdftex.def)             Requested size: 145.67589pt x 127.13971pt.
-<figs/percent3.jpg, id=480, 287.0725pt x 282.05376pt>
+<figs/percent3.jpg, id=496, 287.0725pt x 282.05376pt>
 File: figs/percent3.jpg Graphic file (type jpg)
 <use figs/percent3.jpg>
-Package pdftex.def Info: figs/percent3.jpg  used on input line 225.
+Package pdftex.def Info: figs/percent3.jpg  used on input line 206.
 (pdftex.def)             Requested size: 145.67589pt x 143.13107pt.
 
-
-[11 <./figs/percent2.jpg> <./figs/percent3.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12]
+[11]
+
+[12 <./figs/percent2.jpg> <./figs/percent3.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [13]
-<figs/area.jpg, id=558, 934.49126pt x 318.18875pt>
+<figs/area.jpg, id=567, 934.49126pt x 318.18875pt>
 File: figs/area.jpg Graphic file (type jpg)
 <use figs/area.jpg>
-Package pdftex.def Info: figs/area.jpg  used on input line 307.
+Package pdftex.def Info: figs/area.jpg  used on input line 288.
 (pdftex.def)             Requested size: 364.1953pt x 124.0057pt.
-<figs/area1.jpg, id=560, 652.4375pt x 319.1925pt>
-File: figs/area1.jpg Graphic file (type jpg)
-<use figs/area1.jpg>
-Package pdftex.def Info: figs/area1.jpg  used on input line 316.
-(pdftex.def)             Requested size: 364.1953pt x 178.1816pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[14 <./figs/area.jpg>]) (./ncert/prog.tex (./codes/prog/ifelse.c
+[14]
+<figs/area1.jpg, id=599, 652.4375pt x 319.1925pt>
+File: figs/area1.jpg Graphic file (type jpg)
+<use figs/area1.jpg>
+Package pdftex.def Info: figs/area1.jpg  used on input line 297.
+(pdftex.def)             Requested size: 364.1953pt x 178.1816pt.
+) (./ncert/prog.tex (./codes/prog/ifelse.c
 
-[15 <./figs/area1.jpg>]) (./codes/prog/func.c
+[15 <./figs/area.jpg> <./figs/area1.jpg>]) (./codes/prog/func.c
 
 [16]) (./codes/prog/loop.c
 
@@ -2035,36 +2026,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [18]) (./codes/prog/fileprogs/files.c
 
-[19])
+[19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[20] (./codes/prog/fileprogs/pointer.c
+[20]) (./codes/prog/fileprogs/pointer.c
 
-[21]) (./codes/prog/fileprogs/filesfunc.c
-
-[22]
+[21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[23]) (./codes/prog/compeq.c
+[22]) (./codes/prog/fileprogs/filesfunc.c
 
-[24])
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[25] (./codes/prog/seq.c)
 
-[26] (./codes/prog/hcf.c
+
+[24]) (./codes/prog/compeq.c)
+
+[25] (./codes/prog/seq.c
+
+[26]) (./codes/prog/hcf.c
 
 [27]
 LaTeX Font Info:    Font shape `OML/txr/m/it' in size <10> not available
 (Font)              Font shape `OML/txmi/m/it' tried instead on input line 59.
-)
 
-[28] (./codes/prog/recur.c)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[29] (./codes/prog/prodvec.c
+
+
+[28]) (./codes/prog/recur.c
+
+[29]) (./codes/prog/prodvec.c
 
 [30]) (./codes/prog/mat/matsol.c
 
@@ -2083,13 +2080,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[34]) (./codes/prog/mat/libs/geofun.h)) (./ncert/data.tex
+[34]) (./codes/prog/mat/libs/geofun.h)
 
-[35] (./codes/data/avg.c) (./codes/data/minmax.c
+[35]) (./ncert/data.tex (./codes/data/avg.c)
 
-[36])
+[36] (./codes/data/minmax.c)
 
-[37] (./codes/data/markfreq.c) (./tables/player.tex
+[37] (./codes/data/markfreq.c)
+
+[38] (./tables/player.tex
 \gnumericTableWidth=\skip78
 \gnumericTableWidthComplete=\skip79
 \gnumericMultiRowLength=\skip80
@@ -2098,32 +2097,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColC=\skip83
 \gnumericColD=\skip84
 \gnumericColE=\skip85
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[38] (./tables/rainfall.tex
+) (./tables/rainfall.tex
 \gnumericColF=\skip86
 \gnumericColG=\skip87
 \gnumericColH=\skip88
 \gnumericColI=\skip89
 )
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+
 
 [39] (./codes/data/findmode.c
 
 [40]) (./tables/shirt.tex)
 
 [41] (./codes/data/find-median.c
-Underfull \vbox (badness 1755) has occurred while \output is active []
-
-
 
 [42])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/sale.tex)
 
-[44] (./codes/data/bar.c
+
+[43] (./tables/colour.tex) (./tables/marks.tex)
+Underfull \vbox (badness 1354) has occurred while \output is active []
+
+
+
+[44] (./tables/sale.tex) (./codes/data/bar.c
 
 [45]) (./tables/hours.tex
 \gnumericColJ=\skip90
@@ -2241,7 +2241,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 63.
 [50] [51] (./codes/math/ln.c)) (./ncert/rv.tex
 
 [52]
-<figs/game1.jpg, id=2217, 1366.10374pt x 1284.8pt>
+<figs/game1.jpg, id=2238, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 12.
@@ -2266,16 +2266,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AAF676857D53E64D53942CFCD6BEB3C9;635.
+(rerunfilecheck)             Checksum: 703F936D5EFCF1E28C587FDED6B06E97;994.
  ) 
 Here is how much of TeX's memory you used:
- 57245 strings out of 473197
- 1349586 string characters out of 5701897
- 2354842 words of memory out of 5000000
- 77458 multiletter control sequences out of 15000+600000
+ 57264 strings out of 473197
+ 1349954 string characters out of 5701897
+ 2336842 words of memory out of 5000000
+ 77468 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,13n,109p,1194b,2695s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
@@ -2291,10 +2291,10 @@ mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 /times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (56 pages, 1672562 bytes).
+Output written on main.pdf (56 pages, 1672901 bytes).
 PDF statistics:
- 2847 PDF objects out of 2984 (max. 8388607)
- 2715 compressed objects within 28 object streams
- 2081 named destinations out of 2487 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2868 PDF objects out of 2984 (max. 8388607)
+ 2736 compressed objects within 28 object streams
+ 2085 named destinations out of 2487 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
