@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 MAY 2025 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 MAY 2025 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1977,118 +1977,21 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 91.
 [8]) (./codes/deci/div.c)) (./ncert/deci.tex [9]
 
 [10]
-<figs/percent2.jpg, id=495, 220.825pt x 192.72pt>
-File: figs/percent2.jpg Graphic file (type jpg)
-<use figs/percent2.jpg>
-Package pdftex.def Info: figs/percent2.jpg  used on input line 201.
-(pdftex.def)             Requested size: 145.67589pt x 127.13971pt.
-<figs/percent3.jpg, id=496, 287.0725pt x 282.05376pt>
-File: figs/percent3.jpg Graphic file (type jpg)
-<use figs/percent3.jpg>
-Package pdftex.def Info: figs/percent3.jpg  used on input line 206.
-(pdftex.def)             Requested size: 145.67589pt x 143.13107pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [11]
-
-[12 <./figs/percent2.jpg> <./figs/percent3.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[13]
-<figs/area.jpg, id=567, 934.49126pt x 318.18875pt>
-File: figs/area.jpg Graphic file (type jpg)
-<use figs/area.jpg>
-Package pdftex.def Info: figs/area.jpg  used on input line 288.
-(pdftex.def)             Requested size: 364.1953pt x 124.0057pt.
-
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[14]
-<figs/area1.jpg, id=599, 652.4375pt x 319.1925pt>
-File: figs/area1.jpg Graphic file (type jpg)
-<use figs/area1.jpg>
-Package pdftex.def Info: figs/area1.jpg  used on input line 297.
-(pdftex.def)             Requested size: 364.1953pt x 178.1816pt.
-) (./ncert/prog.tex (./codes/prog/ifelse.c
-
-[15 <./figs/area.jpg> <./figs/area1.jpg>]) (./codes/prog/func.c
-
-[16]) (./codes/prog/loop.c
-
-[17]) (./codes/prog/loopfunc.c
-
-[18]) (./codes/prog/fileprogs/files.c
-
-[19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[20]) (./codes/prog/fileprogs/pointer.c
-
-[21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[22]) (./codes/prog/fileprogs/filesfunc.c
-
-[23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[24]) (./codes/prog/compeq.c)
-
-[25] (./codes/prog/seq.c
-
-[26]) (./codes/prog/hcf.c
-
-[27]
-LaTeX Font Info:    Font shape `OML/txr/m/it' in size <10> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 59.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[28]) (./codes/prog/recur.c
-
-[29]) (./codes/prog/prodvec.c
-
-[30]) (./codes/prog/mat/matsol.c
-
-[31]) (./codes/prog/mat/libs/matfun.h
-
-[32]
-LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[34]) (./codes/prog/mat/libs/geofun.h)
-
-[35]) (./ncert/data.tex (./codes/data/avg.c)
-
-[36] (./codes/data/minmax.c)
-
-[37] (./codes/data/markfreq.c)
-
-[38] (./tables/player.tex
+[13] (./tables/deci/pgm.tex
 \gnumericTableWidth=\skip78
 \gnumericTableWidthComplete=\skip79
 \gnumericMultiRowLength=\skip80
@@ -2096,34 +1999,135 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \gnumericColB=\skip82
 \gnumericColC=\skip83
 \gnumericColD=\skip84
+)
+<figs/area1.jpg, id=580, 652.4375pt x 319.1925pt>
+File: figs/area1.jpg Graphic file (type jpg)
+<use figs/area1.jpg>
+Package pdftex.def Info: figs/area1.jpg  used on input line 278.
+(pdftex.def)             Requested size: 364.1953pt x 178.1816pt.
+) (./ncert/prog.tex
+
+[14 <./figs/area1.jpg>] (./codes/prog/ifelse.c) (./codes/prog/func.c
+
+[15]) (./codes/prog/loop.c
+
+[16]) (./codes/prog/loopfunc.c
+
+[17]) (./codes/prog/fileprogs/files.c
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[19]) (./codes/prog/fileprogs/pointer.c
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[21]) (./codes/prog/fileprogs/filesfunc.c
+
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[23]) (./codes/prog/compeq.c)
+
+[24]
+Overfull \vbox (7.59125pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.55627pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.80478pt too high) has occurred while \output is active []
+
+
+
+[25] (./codes/prog/seq.c) (./codes/prog/hcf.c
+
+[26]
+LaTeX Font Info:    Font shape `OML/txr/m/it' in size <10> not available
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 59.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[27]) (./codes/prog/recur.c
+
+[28]) (./codes/prog/prodvec.c
+
+[29]) (./codes/prog/mat/matsol.c
+
+[30]) (./codes/prog/mat/libs/matfun.h
+
+[31]
+LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 27.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[33])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[34] (./codes/prog/mat/libs/geofun.h)
+<figs/percent2.jpg, id=1558, 220.825pt x 192.72pt>
+File: figs/percent2.jpg Graphic file (type jpg)
+<use figs/percent2.jpg>
+Package pdftex.def Info: figs/percent2.jpg  used on input line 264.
+(pdftex.def)             Requested size: 145.67589pt x 127.13971pt.
+<figs/percent3.jpg, id=1559, 287.0725pt x 282.05376pt>
+File: figs/percent3.jpg Graphic file (type jpg)
+<use figs/percent3.jpg>
+Package pdftex.def Info: figs/percent3.jpg  used on input line 269.
+(pdftex.def)             Requested size: 145.67589pt x 143.13107pt.
+) (./ncert/data.tex (./codes/data/avg.c
+
+[35 <./figs/percent2.jpg> <./figs/percent3.jpg>]) (./codes/data/minmax.c
+
+[36]) (./codes/data/markfreq.c
+
+[37]) (./tables/player.tex
 \gnumericColE=\skip85
-) (./tables/rainfall.tex
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[38] (./tables/rainfall.tex
 \gnumericColF=\skip86
 \gnumericColG=\skip87
 \gnumericColH=\skip88
 \gnumericColI=\skip89
 )
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
-
 
 [39] (./codes/data/findmode.c
 
 [40]) (./tables/shirt.tex)
 
 [41] (./codes/data/find-median.c
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+
 
 [42])
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/sale.tex)
 
-
-[43] (./tables/colour.tex) (./tables/marks.tex)
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
-
-
-[44] (./tables/sale.tex) (./codes/data/bar.c
+[44] (./codes/data/bar.c
 
 [45]) (./tables/hours.tex
 \gnumericColJ=\skip90
@@ -2269,13 +2273,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 703F936D5EFCF1E28C587FDED6B06E97;994.
  ) 
 Here is how much of TeX's memory you used:
- 57264 strings out of 473197
- 1349954 string characters out of 5701897
- 2336842 words of memory out of 5000000
- 77468 multiletter control sequences out of 15000+600000
+ 57266 strings out of 473197
+ 1349964 string characters out of 5701897
+ 2322842 words of memory out of 5000000
+ 77465 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,13n,109p,1194b,2695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
@@ -2291,10 +2295,10 @@ mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 /times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (56 pages, 1672901 bytes).
+Output written on main.pdf (56 pages, 1590903 bytes).
 PDF statistics:
  2868 PDF objects out of 2984 (max. 8388607)
- 2736 compressed objects within 28 object streams
- 2085 named destinations out of 2487 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2737 compressed objects within 28 object streams
+ 2086 named destinations out of 2487 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
