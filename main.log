@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 MAY 2025 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  15 MAY 2025 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2075,26 +2075,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figs/percent2.jpg Graphic file (type jpg)
 <use figs/percent2.jpg>
 Package pdftex.def Info: figs/percent2.jpg  used on input line 189.
-(pdftex.def)             Requested size: 145.67589pt x 127.13971pt.
-<figs/percent3.jpg, id=1566, 287.0725pt x 282.05376pt>
-File: figs/percent3.jpg Graphic file (type jpg)
-<use figs/percent3.jpg>
-Package pdftex.def Info: figs/percent3.jpg  used on input line 194.
-(pdftex.def)             Requested size: 145.67589pt x 143.13107pt.
-) (./ncert/data.tex (./codes/data/avg.c
+(pdftex.def)             Requested size: 91.04881pt x 79.45973pt.
+ (./tables/deci/percent.tex) (./codes/prog/percent.c
 
-[35 <./figs/percent2.jpg> <./figs/percent3.jpg>]) (./codes/data/minmax.c
+[35 <./figs/percent2.jpg>])) (./ncert/data.tex (./codes/data/avg.c)
 
-[36])
+[36] (./codes/data/minmax.c)
+Underfull \vbox (badness 1859) has occurred while \output is active []
 
-[37] (./codes/data/markfreq.c) (./tables/player.tex
+
+
+[37] (./codes/data/markfreq.c
+
+[38]) (./tables/player.tex
 \gnumericColE=\skip85
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[38] (./tables/rainfall.tex
+) (./tables/rainfall.tex
 \gnumericColF=\skip86
 \gnumericColG=\skip87
 \gnumericColH=\skip88
@@ -2104,17 +2099,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [39] (./codes/data/findmode.c
 
 [40]) (./tables/shirt.tex)
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+
 
 [41] (./codes/data/find-median.c
-Underfull \vbox (badness 1755) has occurred while \output is active []
+
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[42])
+[43]) (./tables/colour.tex)
 
-[43] (./tables/colour.tex) (./tables/marks.tex) (./tables/sale.tex)
-
-[44] (./codes/data/bar.c
+[44] (./tables/marks.tex) (./tables/sale.tex) (./codes/data/bar.c
 
 [45]) (./tables/hours.tex
 \gnumericColJ=\skip90
@@ -2143,9 +2141,6 @@ Overfull \hbox (2.66731pt too wide) in paragraph at lines 347--347
  []
 
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [46] (./tables/students.tex) (./tables/children.tex) (./tables/term.tex)
 
@@ -2232,7 +2227,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 63.
 [50] [51] (./codes/math/ln.c)) (./ncert/rv.tex
 
 [52]
-<figs/game1.jpg, id=2248, 1366.10374pt x 1284.8pt>
+<figs/game1.jpg, id=2265, 1366.10374pt x 1284.8pt>
 File: figs/game1.jpg Graphic file (type jpg)
 <use figs/game1.jpg>
 Package pdftex.def Info: figs/game1.jpg  used on input line 12.
@@ -2260,13 +2255,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 979DB70632440F7305B884A3CAAE2C97;1175.
  ) 
 Here is how much of TeX's memory you used:
- 57276 strings out of 473197
- 1350121 string characters out of 5701897
+ 57300 strings out of 473197
+ 1350520 string characters out of 5701897
  2316842 words of memory out of 5000000
- 77467 multiletter control sequences out of 15000+600000
+ 77469 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,13n,109p,1194b,2695s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
@@ -2282,10 +2277,10 @@ mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 /times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (56 pages, 1538059 bytes).
+Output written on main.pdf (56 pages, 1513785 bytes).
 PDF statistics:
- 2880 PDF objects out of 2984 (max. 8388607)
- 2750 compressed objects within 28 object streams
- 2089 named destinations out of 2487 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2900 PDF objects out of 2984 (max. 8388607)
+ 2771 compressed objects within 28 object streams
+ 2107 named destinations out of 2487 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 

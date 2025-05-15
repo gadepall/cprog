@@ -7,6 +7,6 @@
 \contentsline {section}{\numberline {3}Programming}{14}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Formulae}{14}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}NCERT}{31}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Data Handling}{35}{section.4}%
+\contentsline {section}{\numberline {4}Data Handling}{36}{section.4}%
 \contentsline {section}{\numberline {5}Math Library}{48}{section.5}%
 \contentsline {section}{\numberline {6}Random Numbers}{53}{section.6}%

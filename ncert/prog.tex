@@ -185,16 +185,19 @@ Extend the table using a C program
 to include a column for the percentage of chips of each colour.
 \begin{figure}[H]
   \centering
-  \begin{subfigure}{0.4\textwidth}
+  \begin{subfigure}{0.25\textwidth}
     \includegraphics[width=\textwidth]{figs/percent2.jpg}
     \caption{Chips}
   \end{subfigure}
   \hfill
-  \begin{subfigure}{0.4\textwidth}
-    \includegraphics[width=\textwidth]{figs/percent3.jpg}
+\begin{subfigure}{0.4\textwidth}
+%    \includegraphics[width=\textwidth]{figs/percent3.jpg}
+	  \input{tables/deci/percent.tex}
     \caption{Table}
   \end{subfigure}
   \caption{}
   \label{fig:percent2}
 \end{figure}
+	\solution 
+	\lstinputlisting{codes/prog/percent.c}
 \end{enumerate}
