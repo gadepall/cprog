@@ -40,3 +40,47 @@ In a quiz, team A scored $a_1 = -40, a_2=10, a_3=0$ and team B scored $b_1=10, b
 	\solution 
 	\lstinputlisting{codes/prog/fileprogs/filesfunc.c}
 \end{enumerate}
+Reduce to standard form
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*,itemsep=1ex]
+	\item $\frac{-45}{30}$
+		\\
+		\solution
+	\lstinputlisting{codes/prog/hcf.c}
+\end{enumerate}
+Use recursion for the following
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
+		\item $9^3$
+			\\
+			\solution For integer powers, the exponent can be computed as
+			\begin{align}
+					x(n) = ax(n-1), x(0) = 1 
+			\end{align}
+			which results in the following C code.
+	\lstinputlisting{codes/prog/recur.c}
+\end{enumerate}
+Use matrices for the following
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
+	\item The difference in the measures of two complementary angles is 12\degree. Find the measures of the angles.
+		\\
+		\solution Let the angles be $x$ and $y$.  Then we have the following equations
+		\begin{align}
+			x+y = 180
+			\\
+			x-y = 12
+		\end{align}
+		which can be expressed as the matrix equation
+		\begin{align}
+		\myvec{1 & 1 \\ 1 & -1}\myvec{x\\y}= \myvec{180 \\ 12}
+		\\
+		\text{or, } \vec{A}\vec{x} = \vec{b}
+		\end{align}
+		The solution can be obtained as
+		\begin{align}
+			\vec{x} = \frac{\vec{A}^{\top}\vec{b}}{2}
+		\end{align}
+		using the following code
+	\lstinputlisting{codes/prog/mat/matsol.c}
+	by keeping the functions in .h files as below.  
+	\lstinputlisting{codes/prog/mat/libs/matfun.h}
+	\lstinputlisting{codes/prog/mat/libs/geofun.h}
+\end{enumerate}

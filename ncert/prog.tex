@@ -111,10 +111,6 @@ Compare the following and fill in the blanks
 		\end{enumerate}
 Reduce to standard form
 \begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*,itemsep=1ex]
-	\item $\frac{-45}{30}$
-		\\
-		\solution
-	\lstinputlisting{codes/prog/hcf.c}
 	\begin{multicols}{4}
 	\item $\frac{36}{-24}$
 	\item $\frac{-3}{-15}$
@@ -128,14 +124,6 @@ Reduce to standard form
 \end{enumerate}
 Use recursion for the following
 \begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
-		\item $9^3$
-			\\
-			\solution For integer powers, the exponent can be computed as
-			\begin{align}
-					x(n) = ax(n-1), x(0) = 1 
-			\end{align}
-			which results in the following C code.
-	\lstinputlisting{codes/prog/recur.c}
 	\item $\brak{-1}\times\brak{-2} \times \brak{-3} \times \brak{-4}$ 
 		\\
 		\solution In this case,
@@ -187,35 +175,14 @@ Use arrays for the following
 \end{enumerate}
 Use matrices for the following
 \begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
-	\item The difference in the measures of two complementary angles is 12\degree. Find the measures of the angles.
-		\\
-		\solution Let the angles be $x$ and $y$.  Then we have the following equations
-		\begin{align}
-			x+y = 180
-			\\
-			x-y = 12
-		\end{align}
-		which can be expressed as the matrix equation
-		\begin{align}
-		\myvec{1 & 1 \\ 1 & -1}\myvec{x\\y}= \myvec{180 \\ 12}
-		\\
-		\text{or, } \vec{A}\vec{x} = \vec{b}
-		\end{align}
-		The solution can be obtained as
-		\begin{align}
-			\vec{x} = \frac{\vec{A}^{\top}\vec{b}}{2}
-		\end{align}
-		using the following code
-	\lstinputlisting{codes/prog/mat/matsol.c}
-	by keeping the functions in .h files as below.  
-	\lstinputlisting{codes/prog/mat/libs/matfun.h}
-	\lstinputlisting{codes/prog/mat/libs/geofun.h}
-\item Among two supplementary angles the measure of the larger angle is $44\degree$  more than the measure of the smaller. Find their measures
+\item Among two supplementary angles the measure of the larger angle is $44\degree$  more than the measure of the smaller. Find their measures.
+\end{enumerate}
+\begin{enumerate}[label=\thesubsection.\arabic*, ref=\thesubsection.\theenumi,resume*]
 \item 
 	A collection of 10 chips with different colours is given in 
 \figref{fig:percent2}.
-Fill the table 
-and find the percentage of chips of each colour.
+Extend the table using a C program
+to include a column for the percentage of chips of each colour.
 \begin{figure}[H]
   \centering
   \begin{subfigure}{0.4\textwidth}
