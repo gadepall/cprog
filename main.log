@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  16 MAY 2025 07:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  19 MAY 2025 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1600,11 +1600,18 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-\c@theorem=\count384
-\c@problem=\count385
-\c@proposition=\count386
-\c@lemma=\count387
-\c@example=\count388
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/colort
+bl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks54
+\minrowclearance=\skip78
+\rownum=\count384
+)
+\c@theorem=\count385
+\c@problem=\count386
+\c@proposition=\count387
+\c@lemma=\count388
+\c@example=\count389
 ) (./gvv.sty
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/listin
 gs/lstlang1.sty
@@ -1614,9 +1621,9 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 gs/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-\c@rem=\count389
-\c@matchleft=\count390
-\c@matchright=\count391
+\c@rem=\count390
+\c@matchleft=\count391
+\c@matchright=\count392
 )
 \@indexfile=\write4
 \openout4 = `main.idx'.
@@ -1789,17 +1796,17 @@ or `english'. on input line 20.
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/context/base
 /mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
+\scratchcounter=\count393
 \scratchdimen=\dimen392
 \scratchbox=\box142
-\nofMPsegments=\count393
-\nofMParguments=\count394
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count395
+\nofMPsegments=\count394
+\nofMParguments=\count395
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count396
 \MPscratchDim=\dimen393
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
-\everyMPtoPDFconversion=\toks55
+\MPnumerator=\count397
+\makeMPintoPDFobject=\count398
+\everyMPtoPDFconversion=\toks56
 )
 (/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/epstop
 df-pkg/epstopdf-base.sty
@@ -1817,7 +1824,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c@lstlisting=\count398
+\c@lstlisting=\count399
 <figs/logo.jpg, id=87, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
@@ -1992,13 +1999,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [13] (./tables/deci/pgm.tex
-\gnumericTableWidth=\skip78
-\gnumericTableWidthComplete=\skip79
-\gnumericMultiRowLength=\skip80
-\gnumericColA=\skip81
-\gnumericColB=\skip82
-\gnumericColC=\skip83
-\gnumericColD=\skip84
+\gnumericTableWidth=\skip79
+\gnumericTableWidthComplete=\skip80
+\gnumericMultiRowLength=\skip81
+\gnumericColA=\skip82
+\gnumericColB=\skip83
+\gnumericColC=\skip84
+\gnumericColD=\skip85
 ) (./tables/deci/tri.tex)) (./formulae/prog.tex
 (./codes/prog/ifelse.c
 
@@ -2070,15 +2077,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [33] (./codes/prog/prodvec.c
 
-[34])
-<figs/percent2.jpg, id=1575, 220.825pt x 192.72pt>
-File: figs/percent2.jpg Graphic file (type jpg)
-<use figs/percent2.jpg>
-Package pdftex.def Info: figs/percent2.jpg  used on input line 189.
-(pdftex.def)             Requested size: 91.04881pt x 79.45973pt.
- (./tables/deci/percent.tex) (./codes/prog/percent.c
+[34]) (./figs/testfig.tex
+Overfull \hbox (24.1372pt too wide) in paragraph at lines 30--31
+ [] 
+ []
 
-[35 <./figs/percent2.jpg>])) (./formulae/data.tex (./codes/data/avg.c)
+) (./tables/deci/percent.tex) (./codes/prog/percent.c
+
+[35])) (./formulae/data.tex (./codes/data/avg.c)
 
 [36] (./codes/data/minmax.c
 
@@ -2093,7 +2099,7 @@ l.21 	\end{gather}
 [38]) (./codes/data/find-median.c
 
 [39]) (./tables/sale.tex
-\gnumericColE=\skip85
+\gnumericColE=\skip86
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2106,10 +2112,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [42])) (./ncert/data.tex
 
 [43] (./tables/player.tex) (./tables/rainfall.tex
-\gnumericColF=\skip86
-\gnumericColG=\skip87
-\gnumericColH=\skip88
-\gnumericColI=\skip89
+\gnumericColF=\skip87
+\gnumericColG=\skip88
+\gnumericColH=\skip89
+\gnumericColI=\skip90
 )
 
 [44] (./tables/shirt.tex)
@@ -2120,11 +2126,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [46] (./tables/hours.tex
-\gnumericColJ=\skip90
-\gnumericColK=\skip91
-\gnumericColL=\skip92
-\gnumericColM=\skip93
-\gnumericColN=\skip94
+\gnumericColJ=\skip91
+\gnumericColK=\skip92
+\gnumericColL=\skip93
+\gnumericColM=\skip94
+\gnumericColN=\skip95
 
 Overfull \hbox (2.36075pt too wide) in paragraph at lines 267--267
  \OT1/txr/bx/n/10 Jan| 
@@ -2234,23 +2240,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [51] (./codes/math/ln.c)
 
-[52]) (./ncert/rv.tex
-<figs/game1.jpg, id=2250, 1366.10374pt x 1284.8pt>
-File: figs/game1.jpg Graphic file (type jpg)
-<use figs/game1.jpg>
-Package pdftex.def Info: figs/game1.jpg  used on input line 12.
-(pdftex.def)             Requested size: 364.1953pt x 342.50925pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[52]) (./ncert/rv.tex (./tables/rv/game.tex)
 
 [53] (./codes/rv/game.c
 
-[54 <./figs/game1.jpg>])
+[54]) (./codes/rv/rgame.c
 
-[55] (./codes/rv/rgame.c
-Underfull \vbox (badness 1383) has occurred while \output is active []
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2265,13 +2262,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7DCEAE8D0004375B58940E91641D4739;1356.
  ) 
 Here is how much of TeX's memory you used:
- 57309 strings out of 473197
- 1350687 string characters out of 5701897
- 2314841 words of memory out of 5000000
- 77474 multiletter control sequences out of 15000+600000
+ 57455 strings out of 473197
+ 1353434 string characters out of 5701897
+ 2320833 words of memory out of 5000000
+ 77609 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,13n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,14n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
@@ -2287,10 +2284,10 @@ mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 /times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texli
 ve/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (57 pages, 1513180 bytes).
+Output written on main.pdf (57 pages, 732801 bytes).
 PDF statistics:
- 2913 PDF objects out of 2984 (max. 8388607)
+ 2911 PDF objects out of 2984 (max. 8388607)
  2783 compressed objects within 28 object streams
  2109 named destinations out of 2487 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

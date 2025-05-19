@@ -1,18 +1,26 @@
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi]
 	\item Take a board marked from -104 to 104 as shown in 
-	\figref{fig:game1}.
+  \tabref{tab:game}.  
+	\begin{table}[H]
+%  \centering
+  \input{tables/rv/game.tex}
+  \caption{}
+  \label{tab:game}
+\end{table}
 	\item Take a bag containing two blue and two red dice.  Number of dots on the blue dice indicate positive integers and number of dots on the red dice indicate negative integers.
 	\item Every player will place his/her counter at zero.
 	\item Each player will take out two dice at a time from the bag and throw them.
 	\item After every throw, the player has to multiply the numbers marked on the dice.
 	\item If the product is a positive integer then the player will move his counter towards 104; if the product is a negative integer then the player will move his counter towards -104.
 	\item The player who reaches either -104 or 104 first is the winner.
+		\iffalse
 		\begin{figure}[H]
   \centering
   \includegraphics[width=\columnwidth]{figs/game1.jpg}
   \caption{}
   \label{fig:game1}
 \end{figure}
+\fi
 \end{enumerate}
 %
 \begin{enumerate}[label=\thesection.\arabic*, ref=\thesection.\theenumi,resume*]
