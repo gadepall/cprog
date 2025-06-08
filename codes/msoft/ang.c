@@ -1,5 +1,5 @@
 //Code by GVV Sharma
-//June 6, 2025
+//June 8, 2025
 //released under GNU GPL
 //Find the angles of a triangle given 3 vertices
 #include <math.h>
@@ -7,6 +7,9 @@
 #include <stdlib.h>
 #include "libs/matfun.h"
 #include "libs/geofun.h"
+
+double rad2deg = 180/M_PI;
+double angVec(double **s_ab, double **s_bc, int m);
 
 int main() {
 int m=2, n=1;
@@ -22,14 +25,7 @@ C[1][0] = -5;
 double **s_ab = Matsub(A,B,m,n);//A-B
 double **s_bc = Matsub(B,C,m,n);//B-C
 double **s_ca = Matsub(C,A,m,n);//C-A
-double sideAB = Matnorm(s_ab,m);
-double sideBC = Matnorm(s_bc,m); 
-double sideCA = Matnorm(s_ca,m);
-double cosB= -Matdot(s_ab, s_bc, m)/(sideAB*sideBC);
-double cosC= -Matdot(s_bc, s_ca, m)/(sideBC*sideCA);
-double cosA= -Matdot(s_ca, s_ab, m)/(sideCA*sideAB);
-double rad2deg = 180/M_PI;
-printf("%lf %lf %lf\n,",acos(cosA)*rad2deg,acos(cosB)*rad2deg,acos(cosC)*rad2deg);//print AB
+printf("%lf %lf %lf\n,",angVec(s_ab, s_bc, m),angVec(s_bc, s_ca, m),angVec(s_ca, s_ab, m));//print angles
 
 freeMat(A,2);
 freeMat(B,2);
@@ -39,4 +35,12 @@ freeMat(s_ab,2);
 freeMat(s_bc,2);
 freeMat(s_ca,2);
 return (0);
+}
+
+//Angle between two vectors
+double angVec(double **s_ab, double **s_bc, int m){
+double sideAB = Matnorm(s_ab,m);
+double sideBC = Matnorm(s_bc,m);
+double cosB= -Matdot(s_ab, s_bc, m)/(sideAB*sideBC);
+return acos(cosB)*rad2deg;
 }
