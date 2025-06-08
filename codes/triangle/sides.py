@@ -38,13 +38,13 @@ print(dst)
 A  = dst[:,0].reshape(-1,1)
 B  = dst[:,1].reshape(-1,1) 
 C  = dst[:,2].reshape(-1,1)
-
-#print(A,B,C)
 '''
+
 #Triangle vertices
 A = np.array([1,-1]).reshape(-1,1)
 B = np.array([-4,6]).reshape(-1,1) 
 C = np.array([-3,-5]).reshape(-1,1) 
+#print(A,B,C)
 
 #Triangle sides
 c = LA.norm(A-B)
@@ -71,15 +71,16 @@ c3 = n3.T@C
 #Area
 arvec = np.cross(m1[:,0],m3[:,0])
 area = 1/2*LA.norm(arvec)
-print(area)
+#print(area)
 
 #Angles
 angA = np.degrees(np.arccos((-m1.T@m3)/(c*b)))
 angB = np.degrees(np.arccos((-m1.T@m2)/(c*a)))
 angC = np.degrees(np.arccos((-m2.T@m3)/(a*b)))
-#print(angA,angB,angC)
+print(angA,angB,angC)
 
 #Writing sides to excel
+'''
 sides=np.array([a,b,c]).reshape(-1,1)
 columns=['a','b','c']
 
@@ -87,6 +88,7 @@ columns=['a','b','c']
 df = pd.DataFrame(sides.T,columns=columns)
 df.to_excel('tables/output.xlsx')
 #print(df)
+'''
 
 #Generating all lines
 x_AB = line_gen(A,B)
@@ -95,6 +97,7 @@ x_CA = line_gen(C,A)
 
 
 
+'''
 #Plotting all lines
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
@@ -121,4 +124,4 @@ plt.savefig('figs/triangle/vector.pdf')
 subprocess.run(shlex.split("termux-open figs/triangle/vector.pdf"))
 #else
 #plt.show()
-
+'''

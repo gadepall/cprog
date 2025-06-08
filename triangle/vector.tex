@@ -80,6 +80,63 @@ and
 \begin{lstlisting}
 	codes/msoft/sides.c
 \end{lstlisting}
+	\item Find the angles $A, B, C$ if 
+%    \label{prop:angle2d}
+  \begin{align}
+    \label{eq:app-angle2d}
+			\cos A \triangleq 
+\frac{\brak{\vec{B}-\vec{A}}^{\top}{\vec{C}-\vec{A}}}{\norm{\vec{B}-\vec{A}}\norm{\vec{C}-\vec{A}}}
+  \end{align}\\
+  \solution
+\begin{enumerate}
+	\item From 
+		\eqref{eq:app-geo-dir-vec-ab},
+		\eqref{eq:app-geo-dir-vec-ca},
+		\eqref{eq:app-geo-norm-ab}
+		and
+		\eqref{eq:app-geo-norm-ca}
+\begin{align}
+	(\vec{B}-\vec{A})^{\top}(\vec{C}-\vec{A})&=\myvec{-5&7}\myvec{-4\\-4}\\
+	&=-8
+	\\
+	\implies
+	\cos{A}&= \frac{-8}{\sqrt{74} \sqrt{32}}
+	= \frac{-1}{\sqrt{37}}\\
+	\implies A&=\cos^{-1}{\frac{-1}{\sqrt{37}}}
+\end{align}
+	\item From 
+		\eqref{eq:app-geo-dir-vec-ab},
+		\eqref{eq:app-geo-dir-vec-bc},
+		\eqref{eq:app-geo-norm-ab}
+		and
+		\eqref{eq:app-geo-norm-bc}
+\begin{align}
+	(\vec{C}-\vec{B})^{\top}(\vec{A}-\vec{B})&=\myvec{1&-11}\myvec{5\\-7}\\
+	&= 82
+	\\
+	\implies
+	\cos{B}&= \frac{82}{\sqrt{74} \sqrt{122}}
+	= \frac{41}{\sqrt{2257}}\\
+	\implies B&=\cos^{-1}{\frac{41}{\sqrt{2257}}}
+\end{align}
+	\item From 
+		\eqref{eq:app-geo-dir-vec-bc},
+		\eqref{eq:app-geo-dir-vec-ca},
+		\eqref{eq:app-geo-norm-bc}
+		and
+		\eqref{eq:app-geo-norm-ca}
+\begin{align}
+	(\vec{A}-\vec{C})^{\top}(\vec{B}-\vec{C})&=\myvec{4&4}\myvec{-1\\11}\\
+	&=40
+	\\
+\implies	\cos{C}&= \frac{40}{\sqrt{32} \sqrt{122}}
+	= \frac{5}{\sqrt{61}}\\
+	\implies C&=\cos^{-1}{\frac{5}{\sqrt{61}}}
+\end{align}
+\begin{lstlisting}
+	codes/msoft/ang.c
+\end{lstlisting}
+
 %  \\            
   %\input{solutions/1/1/2a/main.tex}
 \item   Points $\vec{A}, \vec{B}, \vec{C}$ are defined to be collinear if 
@@ -286,60 +343,6 @@ From
 which is the desired area.
 
 %  		\input{solutions/1/1/6/main.tex}
-	\item Find the angles $A, B, C$ if 
-%    \label{prop:angle2d}
-  \begin{align}
-    \label{eq:app-angle2d}
-			\cos A \triangleq 
-\frac{\brak{\vec{B}-\vec{A}}^{\top}{\vec{C}-\vec{A}}}{\norm{\vec{B}-\vec{A}}\norm{\vec{C}-\vec{A}}}
-  \end{align}\\
-  \solution
-\begin{enumerate}
-	\item From 
-		\eqref{eq:app-geo-dir-vec-ab},
-		\eqref{eq:app-geo-dir-vec-ca},
-		\eqref{eq:app-geo-norm-ab}
-		and
-		\eqref{eq:app-geo-norm-ca}
-\begin{align}
-	(\vec{B}-\vec{A})^{\top}(\vec{C}-\vec{A})&=\myvec{-5&7}\myvec{-4\\-4}\\
-	&=-8
-	\\
-	\implies
-	\cos{A}&= \frac{-8}{\sqrt{74} \sqrt{32}}
-	= \frac{-1}{\sqrt{37}}\\
-	\implies A&=\cos^{-1}{\frac{-1}{\sqrt{37}}}
-\end{align}
-	\item From 
-		\eqref{eq:app-geo-dir-vec-ab},
-		\eqref{eq:app-geo-dir-vec-bc},
-		\eqref{eq:app-geo-norm-ab}
-		and
-		\eqref{eq:app-geo-norm-bc}
-\begin{align}
-	(\vec{C}-\vec{B})^{\top}(\vec{A}-\vec{B})&=\myvec{1&-11}\myvec{5\\-7}\\
-	&= 82
-	\\
-	\implies
-	\cos{B}&= \frac{82}{\sqrt{74} \sqrt{122}}
-	= \frac{41}{\sqrt{2257}}\\
-	\implies B&=\cos^{-1}{\frac{41}{\sqrt{2257}}}
-\end{align}
-	\item From 
-		\eqref{eq:app-geo-dir-vec-bc},
-		\eqref{eq:app-geo-dir-vec-ca},
-		\eqref{eq:app-geo-norm-bc}
-		and
-		\eqref{eq:app-geo-norm-ca}
-\begin{align}
-	(\vec{A}-\vec{C})^{\top}(\vec{B}-\vec{C})&=\myvec{4&4}\myvec{-1\\11}\\
-	&=40
-	\\
-\implies	\cos{C}&= \frac{40}{\sqrt{32} \sqrt{122}}
-	= \frac{5}{\sqrt{61}}\\
-	\implies C&=\cos^{-1}{\frac{5}{\sqrt{61}}}
-\end{align}
-
 \end{enumerate}
 %  	\input{solutions/1/1/7/main.tex}
 All codes for this section are available at
