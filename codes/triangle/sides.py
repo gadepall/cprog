@@ -51,7 +51,7 @@ c = LA.norm(A-B)
 a = LA.norm(B-C)
 b = LA.norm(C-A)
 print(A-B)
-print(a,b,c)
+#print(a,b,c)
 
 #Direction Vectors
 m1 = dir_vec(A,B)
@@ -66,7 +66,7 @@ n2 = norm_vec(B,C)
 c2 = n2.T@B
 n3 = norm_vec(C,A)
 c3 = n3.T@C
-#print(n1,c1,n2,c2,n3,c3)
+print(n1,c1,n2,c2,n3,c3)
 
 #Area
 arvec = np.cross(m1[:,0],m3[:,0])

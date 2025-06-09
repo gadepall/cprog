@@ -8,8 +8,7 @@
 #include "libs/matfun.h"
 #include "libs/geofun.h"
 
-double rad2deg = 180/M_PI;
-double angVec(double **s_ab, double **s_bc, int m);
+extern double rad2deg; 
 
 int main() {
 int m=2, n=1;
@@ -37,10 +36,3 @@ freeMat(s_ca,2);
 return (0);
 }
 
-//Angle between two vectors
-double angVec(double **s_ab, double **s_bc, int m){
-double sideAB = Matnorm(s_ab,m);
-double sideBC = Matnorm(s_bc,m);
-double cosB= -Matdot(s_ab, s_bc, m)/(sideAB*sideBC);
-return acos(cosB)*rad2deg;
-}

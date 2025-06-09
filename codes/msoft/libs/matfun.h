@@ -3,8 +3,11 @@
 // October 27, 2023
 // Revised November 13, 2023
 
+//Global declaration
+double rad2deg = 180/M_PI;
 //Function declaration
 
+double angVec(double **s_ab, double **s_bc, int m);//angle between two vectors
 double **Mateigval(double **a);//eigenvalues of a 2x2 matrix
 double **Matquad(double a,double b, double c);//roots of a quadratic equation
 double **Mateye(int m);//generate identity matrix
@@ -397,4 +400,11 @@ double **c = createMat(m,m);
     }
     }
 return c;
+}
+//Angle between two vectors
+double angVec(double **s_ab, double **s_bc, int m){
+	double sideAB = Matnorm(s_ab,m);
+	double sideBC = Matnorm(s_bc,m);
+	double cosB= -Matdot(s_ab, s_bc, m)/(sideAB*sideBC);
+	return acos(cosB)*rad2deg;
 }
