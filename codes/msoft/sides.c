@@ -33,6 +33,7 @@ double **c_ab=Matmul(transposeMat(n_ab,  2, 1), A, 1, 2, 1);//multiply matrices 
 double **c_bc=Matmul(transposeMat(n_bc,  2, 1), B, 1, 2, 1);//multiply matrices a and b
 double **c_ca=Matmul(transposeMat(n_ca,  2, 1), C, 1, 2, 1);//multiply matrices a and b
 printf("%lf %lf %lf\n",sideAB, sideBC, sideCA);//print AB
+printMat(n_ab,2,1);//normal vector of BC
 printMat(n_bc,2,1);//normal vector of BC
 printMat(n_ca,2,1);//normal vector of CA
 printf("%lf %lf %lf\n",c_ab[0][0],c_bc[0][0],c_ca[0][0]);//constant parameters for the lines

@@ -32,7 +32,7 @@ C = np.array([-3,-5]).reshape(-1,1)
 D = (B+C)/2
 E = (C+A)/2
 F = (A+B)/2
-#print(D,E,F)
+print(D,E,F)
 
 #Median parameters
 n1 = norm_vec(A,D)
@@ -41,17 +41,17 @@ n2 = norm_vec(B,E)
 c2 = n2.T@B
 n3 = norm_vec(C,F)
 c3 = n3.T@C
-print(n1,c1,n2,c2,n3,c3)
+#print(n1,c1,n2,c2,n3,c3)
 
 #Intersecton of BE and CF
 G = line_intersect(n2,B,n3,C)
 
 #Centroid
-#print(G, (A+B+C)/3)
+print(G, (A+B+C)/3)
 
 #Collinearity check
 mat=np.block([[1,1,1],[A,G,D]]).T
-print(LA.matrix_rank(mat))
+#print(LA.matrix_rank(mat))
 
 #Generating all lines
 x_AD = line_gen(A,D)
@@ -60,7 +60,7 @@ x_CF = line_gen(C,F)
 x_AB = line_gen(A,B)
 x_BC = line_gen(B,C)
 x_CA = line_gen(C,A)
-
+'''
 #Plotting all lines
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
@@ -90,4 +90,4 @@ plt.savefig('figs/triangle/median.pdf')
 subprocess.run(shlex.split("termux-open figs/triangle/median.pdf"))
 #else
 #plt.show()
-
+'''

@@ -66,18 +66,18 @@ n2 = norm_vec(B,C)
 c2 = n2.T@B
 n3 = norm_vec(C,A)
 c3 = n3.T@C
-print(n1,c1,n2,c2,n3,c3)
+#print(n1,c1,n2,c2,n3,c3)
 
 #Area
 arvec = np.cross(m1[:,0],m3[:,0])
 area = 1/2*LA.norm(arvec)
-#print(area)
+print(area)
 
 #Angles
 angA = np.degrees(np.arccos((-m1.T@m3)/(c*b)))
 angB = np.degrees(np.arccos((-m1.T@m2)/(c*a)))
 angC = np.degrees(np.arccos((-m2.T@m3)/(a*b)))
-print(angA,angB,angC)
+#print(angA,angB,angC)
 
 #Writing sides to excel
 '''
