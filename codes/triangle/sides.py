@@ -50,7 +50,7 @@ C = np.array([-3,-5]).reshape(-1,1)
 c = LA.norm(A-B)
 a = LA.norm(B-C)
 b = LA.norm(C-A)
-print(A-B)
+#print(A-B)
 #print(a,b,c)
 
 #Direction Vectors
@@ -71,7 +71,7 @@ c3 = n3.T@C
 #Area
 arvec = np.cross(m1[:,0],m3[:,0])
 area = 1/2*LA.norm(arvec)
-print(area)
+#print(area)
 
 #Angles
 angA = np.degrees(np.arccos((-m1.T@m3)/(c*b)))

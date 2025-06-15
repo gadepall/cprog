@@ -16,6 +16,6 @@
 \contentsline {subsection}{\numberline {A.1}Sides}{58}{subsection.Appendix.A.1}%
 \contentsline {subsection}{\numberline {A.2}Median}{62}{subsection.Appendix.A.2}%
 \contentsline {subsection}{\numberline {A.3}Altitude}{63}{subsection.Appendix.A.3}%
-\contentsline {subsection}{\numberline {A.4}Perpendicular Bisector}{66}{subsection.Appendix.A.4}%
-\contentsline {subsection}{\numberline {A.5}Angle Bisector}{69}{subsection.Appendix.A.5}%
-\contentsline {subsection}{\numberline {A.6}Eigenvalues and Eigenvectors}{71}{subsection.Appendix.A.6}%
+\contentsline {subsection}{\numberline {A.4}Perpendicular Bisector}{65}{subsection.Appendix.A.4}%
+\contentsline {subsection}{\numberline {A.5}Angle Bisector}{68}{subsection.Appendix.A.5}%
+\contentsline {subsection}{\numberline {A.6}Eigenvalues and Eigenvectors}{70}{subsection.Appendix.A.6}%

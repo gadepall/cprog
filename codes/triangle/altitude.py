@@ -41,7 +41,8 @@ n3 = norm_vec(C,A)
 D = line_intersect(m2,A,n2,B)
 E = line_intersect(m3,B,n3,C)
 F = line_intersect(m1,C,n1,A)
-print(D,E,F)
+#print(D,E,F)
+print(n1.T@A,n3.T@A)
 
 
 #Intersecton of BE and CF
@@ -65,6 +66,7 @@ x_AF = line_gen(A,F)
 x_EH = line_gen(E,H)
 x_FH = line_gen(F,H)
 
+'''
 #Plotting all lines
 plt.plot(x_AB[0,:],x_AB[1,:])
 plt.plot(x_BC[0,:],x_BC[1,:])
@@ -99,3 +101,4 @@ plt.savefig('figs/triangle/altitude.pdf')
 subprocess.run(shlex.split("termux-open figs/triangle/altitude.pdf"))
 #else
 #plt.show()
+'''
