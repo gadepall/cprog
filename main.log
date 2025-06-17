@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  10 JUN 2025 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  17 JUN 2025 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2820,7 +2820,7 @@ termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (71 pages, 811225 bytes).
+Output written on main.pdf (71 pages, 811228 bytes).
 PDF statistics:
  3386 PDF objects out of 3580 (max. 8388607)
  3154 compressed objects within 32 object streams
