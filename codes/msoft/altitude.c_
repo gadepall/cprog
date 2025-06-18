@@ -1,0 +1,47 @@
+//Code by GVV Sharma
+//June 10, 2025
+//Revised June 18, 2025
+//released under GNU GPL
+//Find the orthocentre of a triangle given 3 vertices
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "libs/matfun.h"
+
+//function definition
+int main() {
+//Creating empty A,B,C triangle vertices
+double **A = createMat(2,1);
+double **B = createMat(2,1);
+double **C = createMat(2,1);
+
+//creating empty coefficient and solution vectors
+double **sol;
+
+//Entering A, B, C values
+A[0][0] = 1;
+A[1][0] = -1;
+B[0][0] = -4;
+B[1][0] = 6;
+C[0][0] = -3;
+C[1][0] = -5;
+
+//Direction vectors of AB and AC
+double **m_ab = Matsub(A,B,2,1);//A-B
+double **m_ca = Matsub(C,A,2,1);//C-A
+
+//Intersect of BE and CF altitudes
+sol = line_intersect(m_ab, m_ca, B, C);
+printMat(sol,2,1);
+
+//Freeing up variables
+freeMat(A,2);
+freeMat(B,2);
+freeMat(C,2);
+
+freeMat(m_ab,2);
+freeMat(m_ca,2);
+freeMat(sol,2);
+return (0);
+}
+

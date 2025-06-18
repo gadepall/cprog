@@ -42,16 +42,17 @@ D = line_intersect(m2,A,n2,B)
 E = line_intersect(m3,B,n3,C)
 F = line_intersect(m1,C,n1,A)
 #print(D,E,F)
-print(n1.T@A,n3.T@A)
+print(m1,m3)
+print(m1.T@B,m3.T@C)
 
 
 #Intersecton of BE and CF
 H = line_intersect(m3,B,m1,C)
 
 #Orthocentre
-print(H)
+#print(H)
 #Orthogonality check
-print((A-H).T@(B-C))
+#print((A-H).T@(B-C))
 
 #Generating all lines
 x_AD = line_gen(A,D)

@@ -2,11 +2,14 @@
 // G V V Sharma
 // October 27, 2023
 // Revised November 13, 2023
+#include "geofun.h"
 
 //Global declaration
 double rad2deg = 180/M_PI;
 //Function declaration
 
+double **line_intersect(double **m_ab, double **m_ca, double **B, double **C);//Intersection of two lines
+double **solve(double **mat, double **cVec);//Cramer's rule solution
 double angVec(double **s_ab, double **s_bc, int m);//angle between two vectors
 double **Mateigval(double **a);//eigenvalues of a 2x2 matrix
 double **Matquad(double a,double b, double c);//roots of a quadratic equation
@@ -407,4 +410,43 @@ double angVec(double **s_ab, double **s_bc, int m){
 	double sideBC = Matnorm(s_bc,m);
 	double cosB= -Matdot(s_ab, s_bc, m)/(sideAB*sideBC);
 	return acos(cosB)*rad2deg;
+}
+double **solve(double **mat, double **cVec){
+	double den = Matdet(mat);//Cramer denominator
+	double **sol= createMat(2,1);
+	double **temp=Matcol(mat,2, 1);
+	double **nummat1=Mathstack(cVec,temp, 2, 1, 1);//Cramer numerator matrix
+	freeMat(temp,2);
+	temp=Matcol(mat,2, 0);
+	double **nummat2=Mathstack(temp, cVec, 2, 1, 1);//Cramer second numerator matrix
+	
+	//Cramer's rule solution
+	sol[0][0] = Matdet(nummat1)/den;
+	sol[1][0] = Matdet(nummat2)/den;
+	
+	//Freeing memory
+	
+	freeMat(temp,2);
+	freeMat(nummat1,2);
+	freeMat(nummat2,2);
+
+return sol;
+}
+// Intersection of two lines
+double **line_intersect(double **m_ab, double **m_ca, double **B, double **C){
+//RHS terms
+double **cVec = createMat(2,1);
+double **result=Matmul(transposeMat(m_ab,  2, 1), C, 1, 2, 1);
+cVec[0][0]=result[0][0];//cramer first coefficient entry
+result=Matmul(transposeMat(m_ca,  2, 1), B, 1, 2, 1);//cramer second coefficient entry
+cVec[1][0]=result[0][0];
+//Direction matrix-Cramer equation matrix
+double **mmat=Mathstack(m_ab, m_ca, 2, 1, 1);
+double **mat = transposeMat(mmat,  2, 2);//transpose of a
+double **sol = solve(mat, cVec);
+freeMat(cVec,2);
+freeMat(mat,2);
+freeMat(mmat,2);
+freeMat(result,1);
+return sol;
 }
