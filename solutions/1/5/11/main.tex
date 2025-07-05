@@ -8,11 +8,12 @@ From the given information,
 \end{align}
 which can be expressed as
 \begin{align}
-\myvec{1&1&0\\0&1&1\\1&0&1\\}\myvec{m\\n\\p} &= \myvec{a\\b\\c}
+\myvec{1&1&0\\0&1&1\\1&0&1\\}\myvec{m\\n\\p} = \myvec{a\\b\\c}
 \\
 \implies 
-	\myvec{m\\n\\p} &= \myvec{1&1&0\\0&1&1\\1&0&1\\}^{-1}\myvec{a\\b\\c}
+	\myvec{m\\n\\p} = \myvec{1&1&0\\0&1&1\\1&0&1\\}^{-1}\myvec{a\\b\\c}
 \end{align}
+\iffalse
 Using row reduction,
 		\begin{align}
 			\augvec{3}{3}{1&1&0 & 1 & 0 & 0\\0&1&1 & 0 & 1 & 0\\1&0&1 & 0 & 0 & 1}
@@ -51,3 +52,4 @@ upon substituting from
 		\eqref{eq:app-geo-norm-bc}
 		and
 		\eqref{eq:app-geo-norm-ca}.
+	\fi
