@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  25 JUL 2025 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  25 JUL 2025 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2457,13 +2457,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2}
 <to be read again> 
                    \relax 
 l.33 \end{align}
-                
-<figs/triangle/altitude.pdf, id=2605, 462.52798pt x 346.89601pt>
-File: figs/triangle/altitude.pdf Graphic file (type pdf)
-<use figs/triangle/altitude.pdf>
-Package pdftex.def Info: figs/triangle/altitude.pdf  used on input line 39.
-(pdftex.def)             Requested size: 273.14647pt x 204.86801pt.
-)) (./triangle/perp-bisect.tex
+                )) (./triangle/perp-bisect.tex
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2488,14 +2482,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
                    \relax 
 l.18 \end{align}
                 
-
-[63 <./figs/triangle/altitude.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.32 \end{alignat}
-                  )) (./triangle/angle-bisect.tex
+                  )
+
+[63]) (./triangle/angle-bisect.tex
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2526,11 +2520,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}
                    \relax 
 l.15 \end{align}
                 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[64])
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \end{align}
+                )
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2538,13 +2533,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 l.17 		\end{align}
                   )
 
-[65
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.137 \end{document}
-                    ] (./main.aux)
+[64] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2553,10 +2542,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 043BCFC1EFF8DBD61150E27D4E99619B;2134.
  ) 
 Here is how much of TeX's memory you used:
- 57730 strings out of 473197
- 1358480 string characters out of 5701897
+ 57720 strings out of 473197
+ 1358188 string characters out of 5701897
  2324833 words of memory out of 5000000
- 77723 multiletter control sequences out of 15000+600000
+ 77715 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,22n,109p,1194b,2772s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2578,10 +2567,10 @@ re/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.ter
 mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (65 pages, 771008 bytes).
+Output written on main.pdf (64 pages, 760429 bytes).
 PDF statistics:
- 3193 PDF objects out of 3580 (max. 8388607)
- 3027 compressed objects within 31 object streams
- 2232 named destinations out of 2487 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3155 PDF objects out of 3580 (max. 8388607)
+ 3013 compressed objects within 31 object streams
+ 2230 named destinations out of 2487 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
