@@ -10,11 +10,11 @@
 \contentsline {section}{\numberline {4}Data Handling}{36}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Formulae}{36}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}NCERT}{43}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Math Library}{49}{section.5}%
+\contentsline {section}{\numberline {5}Math Library}{48}{section.5}%
 \contentsline {section}{\numberline {6}Random Numbers}{53}{section.6}%
-\contentsline {section}{Appendix\nobreakspace A: Triangle}{58}{section*.18}%
-\contentsline {subsection}{\numberline {A.1}Sides}{58}{subsection.Appendix.A.1}%
-\contentsline {subsection}{\numberline {A.2}Median}{62}{subsection.Appendix.A.2}%
-\contentsline {subsection}{\numberline {A.3}Altitude}{63}{subsection.Appendix.A.3}%
-\contentsline {subsection}{\numberline {A.4}Perpendicular Bisector}{64}{subsection.Appendix.A.4}%
-\contentsline {subsection}{\numberline {A.5}Angle Bisector}{65}{subsection.Appendix.A.5}%
+\contentsline {section}{Appendix\nobreakspace A: Triangle}{57}{section*.18}%
+\contentsline {subsection}{\numberline {A.1}Sides}{57}{subsection.Appendix.A.1}%
+\contentsline {subsection}{\numberline {A.2}Median}{61}{subsection.Appendix.A.2}%
+\contentsline {subsection}{\numberline {A.3}Altitude}{62}{subsection.Appendix.A.3}%
+\contentsline {subsection}{\numberline {A.4}Perpendicular Bisector}{63}{subsection.Appendix.A.4}%
+\contentsline {subsection}{\numberline {A.5}Angle Bisector}{64}{subsection.Appendix.A.5}%

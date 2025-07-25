@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  4 JUL 2025 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.4.4)  25 JUL 2025 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1916,9 +1916,6 @@ File: ts1txr.fd 2000/12/15 v3.1
 ] (./codes/integer/mul.c) (./codes/integer/div.c)) (./ncert/integer.tex
 [5]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 57.
-
-
 LaTeX Warning: Command \textendash invalid in math mode on input line 58.
 
 
@@ -1940,48 +1937,51 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 63.
 LaTeX Warning: Command \textendash invalid in math mode on input line 64.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 66.
+LaTeX Warning: Command \textendash invalid in math mode on input line 65.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 68.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 76.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 78.
+LaTeX Warning: Command \textendash invalid in math mode on input line 71.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 79.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+LaTeX Warning: Command \textendash invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 84.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 85.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 85.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 89.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 90.
+LaTeX Warning: Command \textendash invalid in math mode on input line 87.
 
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 91.
 
 
+LaTeX Warning: Command \textendash invalid in math mode on input line 91.
 
-[6]) (./formulae/deci.tex
 
-[7] (./codes/deci/add.c) (./codes/deci/sub.c) (./codes/deci/mul.c
+LaTeX Warning: Command \textendash invalid in math mode on input line 96.
 
-[8]) (./codes/deci/div.c)) (./ncert/deci.tex [9]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 98.
+
+
+
+[6]) (./formulae/deci.tex (./codes/deci/add.c
+
+[7]) (./codes/deci/sub.c) (./codes/deci/mul.c)
+
+[8] (./codes/deci/div.c)) (./ncert/deci.tex [9]
 
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2049,7 +2049,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [25]) (./codes/prog/recur.c)
 
 [26] (./codes/prog/mat/matsol.c
-Underfull \vbox (badness 2020) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2082,50 +2082,54 @@ Overfull \hbox (24.1372pt too wide) in paragraph at lines 30--31
  [] 
  []
 
-) (./tables/deci/percent.tex) (./codes/prog/percent.c
+) (./tables/deci/percent.tex) (./codes/prog/percent.c)) (./formulae/data.tex
 
-[35])) (./formulae/data.tex (./codes/data/avg.c)
+[35] (./codes/data/avg.c) (./codes/data/minmax.c
 
-[36] (./codes/data/minmax.c
-
-[37])
+[36])
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 	\end{gather}
-                   (./codes/data/markfreq.c
+                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[38]) (./codes/data/find-median.c
+
+
+[37] (./codes/data/markfreq.c)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[38] (./codes/data/find-median.c
 
 [39]) (./tables/sale.tex
 \gnumericColE=\skip86
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [40] (./codes/data/bar.c
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+
 
 [41]) (./codes/data/findmode.c
 
-[42])) (./ncert/data.tex
+[42])) (./ncert/data.tex (./tables/player.tex)
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
-[43] (./tables/player.tex) (./tables/rainfall.tex
+
+
+[43] (./tables/rainfall.tex
 \gnumericColF=\skip87
 \gnumericColG=\skip88
 \gnumericColH=\skip89
 \gnumericColI=\skip90
-)
+) (./tables/shirt.tex)
 
-[44] (./tables/shirt.tex)
+[44]
 
-[45] (./tables/colour.tex) (./tables/marks.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[46] (./tables/hours.tex
+[45] (./tables/colour.tex) (./tables/marks.tex) (./tables/hours.tex
 \gnumericColJ=\skip91
 \gnumericColK=\skip92
 \gnumericColL=\skip93
@@ -2151,14 +2155,13 @@ Overfull \hbox (2.66731pt too wide) in paragraph at lines 347--347
  \OT1/txr/bx/n/10 Mar| 
  []
 
-) (./tables/students.tex) (./tables/children.tex)
-Underfull \vbox (badness 1831) has occurred while \output is active []
+)
 
+[46] (./tables/students.tex) (./tables/children.tex) (./tables/term.tex)
 
+[47] (./tables/sport.tex)) (./ncert/math.tex (./codes/math/baudh.c
 
-[47] (./tables/term.tex) (./tables/sport.tex)
-
-[48]) (./ncert/math.tex (./codes/math/baudh.c)
+[48])
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 22.
 
@@ -2171,9 +2174,6 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 26.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 27.
 
-
-
-[49]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 32.
 
@@ -2208,6 +2208,9 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 46.
 LaTeX Warning: Command \textendash invalid in math mode on input line 49.
 
 
+
+[49]
+
 LaTeX Warning: Command \textendash invalid in math mode on input line 53.
 
 
@@ -2233,27 +2236,20 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 63.
 
 (./codes/math/circ.c)
 
-[50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[51] (./codes/math/ln.c)
+[50] [51] (./codes/math/ln.c)
 
 [52]) (./ncert/rv.tex (./tables/rv/game.tex)
 
 [53] (./codes/rv/game.c
-
-[54]) (./codes/rv/rgame.c
-
-[55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[56]))
+[54]) (./codes/rv/rgame.c
 
-[57]
+[55]))
+
+[56]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.10.1
 }) has been already used, duplicate ignored
 <to be read again> 
@@ -2273,7 +2269,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
 l.18  \end{align}
                  
 
-[58]
+[57]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2290,17 +2286,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[59]
+[58]
 Underfull \vbox (badness 1472) has occurred while \output is active []
 
 
 
-[60]
+[59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[61]) (./triangle/median.tex
+[60]) (./triangle/median.tex
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2362,7 +2358,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
 l.7 		\end{align}
                  
 
-[62] (./solutions/1/3/1/main.tex
+[61] (./solutions/1/3/1/main.tex
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2455,14 +2451,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[63]
+[62]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 \end{align}
                 
-<figs/triangle/altitude.pdf, id=2609, 462.52798pt x 346.89601pt>
+<figs/triangle/altitude.pdf, id=2605, 462.52798pt x 346.89601pt>
 File: figs/triangle/altitude.pdf Graphic file (type pdf)
 <use figs/triangle/altitude.pdf>
 Package pdftex.def Info: figs/triangle/altitude.pdf  used on input line 39.
@@ -2493,7 +2489,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
 l.18 \end{align}
                 
 
-[64 <./figs/triangle/altitude.pdf>]
+[63 <./figs/triangle/altitude.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2534,7 +2530,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[65])
+[64])
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2542,7 +2538,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 l.17 		\end{align}
                   )
 
-[66
+[65
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2557,13 +2553,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 043BCFC1EFF8DBD61150E27D4E99619B;2134.
  ) 
 Here is how much of TeX's memory you used:
- 57731 strings out of 473197
- 1358487 string characters out of 5701897
- 2320833 words of memory out of 5000000
+ 57730 strings out of 473197
+ 1358480 string characters out of 5701897
+ 2324833 words of memory out of 5000000
  77723 multiletter control sequences out of 15000+600000
  630142 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,22n,109p,1194b,2778s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,22n,109p,1194b,2772s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
 blic/txfonts/rtcxi.pfb></data/data/com.termux/files/usr/share/texlive/2025/texm
 f-dist/fonts/type1/public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/sh
@@ -2582,10 +2578,10 @@ re/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.ter
 mux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (66 pages, 770208 bytes).
+Output written on main.pdf (65 pages, 771008 bytes).
 PDF statistics:
- 3199 PDF objects out of 3580 (max. 8388607)
- 3032 compressed objects within 31 object streams
- 2233 named destinations out of 2487 (max. 500000)
+ 3193 PDF objects out of 3580 (max. 8388607)
+ 3027 compressed objects within 31 object streams
+ 2232 named destinations out of 2487 (max. 500000)
  279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
